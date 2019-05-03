@@ -1,0 +1,2445 @@
+2019-03-19 11:22:15 Error: [RuntimeException] Unknown command `cake events_data`. Run `cake --help` to get the list of valid commands. in /var/www/html/classbyte/vendor/cakephp/cakephp/src/Console/CommandRunner.php on line 321
+Stack Trace:
+#0 /var/www/html/classbyte/vendor/cakephp/cakephp/src/Console/CommandRunner.php(159): Cake\Console\CommandRunner->resolveName(Object(Cake\Console\CommandCollection), Object(Cake\Console\ConsoleIo), 'events_data')
+#1 /var/www/html/classbyte/bin/cake.php(12): Cake\Console\CommandRunner->run(Array)
+#2 {main}
+
+
+2019-03-19 11:22:33 Error: [RuntimeException] Unknown command `cake events_data`. Run `cake --help` to get the list of valid commands. in /var/www/html/classbyte/vendor/cakephp/cakephp/src/Console/CommandRunner.php on line 321
+Stack Trace:
+#0 /var/www/html/classbyte/vendor/cakephp/cakephp/src/Console/CommandRunner.php(159): Cake\Console\CommandRunner->resolveName(Object(Cake\Console\CommandCollection), Object(Cake\Console\ConsoleIo), 'events_data')
+#1 /var/www/html/classbyte/bin/cake.php(12): Cake\Console\CommandRunner->run(Array)
+#2 {main}
+
+
+2019-04-01 10:31:13 Warning: Warning (512): /var/www/html/classbyte/tmp/cache/models/ is not writable in [/var/www/html/classbyte/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 439]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Cache\Engine\FileEngine::_active() - CORE/src/Cache/Engine/FileEngine.php, line 439
+Cake\Cache\Engine\FileEngine::init() - CORE/src/Cache/Engine/FileEngine.php, line 105
+Cake\Cache\CacheRegistry::_create() - CORE/src/Cache/CacheRegistry.php, line 90
+Cake\Core\ObjectRegistry::load() - CORE/src/Core/ObjectRegistry.php, line 97
+Cake\Cache\Cache::_buildEngine() - CORE/src/Cache/Cache.php, line 172
+Cake\Cache\Cache::engine() - CORE/src/Cache/Cache.php, line 232
+Cake\Cache\Cache::read() - CORE/src/Cache/Cache.php, line 360
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 57
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 555
+Josegonzalez\Upload\Model\Behavior\UploadBehavior::initialize() - ROOT/vendor/josegonzalez/cakephp-upload/src/Model/Behavior/UploadBehavior.php, line 44
+Cake\ORM\Behavior::__construct() - CORE/src/ORM/Behavior.php, line 167
+Cake\ORM\BehaviorRegistry::_create() - CORE/src/ORM/BehaviorRegistry.php, line 146
+Cake\Core\ObjectRegistry::load() - CORE/src/Core/ObjectRegistry.php, line 97
+Cake\ORM\Table::addBehavior() - CORE/src/ORM/Table.php, line 867
+App\Model\Table\TenantsTable::initialize() - APP/Model/Table/TenantsTable.php, line 187
+Cake\ORM\Table::__construct() - CORE/src/ORM/Table.php, line 298
+Cake\ORM\Locator\TableLocator::_create() - CORE/src/ORM/Locator/TableLocator.php, line 257
+Cake\ORM\Locator\TableLocator::get() - CORE/src/ORM/Locator/TableLocator.php, line 224
+Cake\Console\Shell::loadModel() - CORE/src/Datasource/ModelAwareTrait.php, line 112
+App\Shell\TenantEditShell::edit() - APP/Shell/TenantEditShell.php, line 42
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 512
+Cake\Console\CommandRunner::runShell() - CORE/src/Console/CommandRunner.php, line 342
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 164
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2019-04-01 10:31:13 Warning: Warning (512): _cake_model_ cache was unable to write 'default_tenants' to Cake\Cache\Engine\FileEngine cache in [/var/www/html/classbyte/vendor/cakephp/cakephp/src/Cache/Cache.php, line 290]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Cache\Cache::write() - CORE/src/Cache/Cache.php, line 290
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 66
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 555
+Josegonzalez\Upload\Model\Behavior\UploadBehavior::initialize() - ROOT/vendor/josegonzalez/cakephp-upload/src/Model/Behavior/UploadBehavior.php, line 44
+Cake\ORM\Behavior::__construct() - CORE/src/ORM/Behavior.php, line 167
+Cake\ORM\BehaviorRegistry::_create() - CORE/src/ORM/BehaviorRegistry.php, line 146
+Cake\Core\ObjectRegistry::load() - CORE/src/Core/ObjectRegistry.php, line 97
+Cake\ORM\Table::addBehavior() - CORE/src/ORM/Table.php, line 867
+App\Model\Table\TenantsTable::initialize() - APP/Model/Table/TenantsTable.php, line 187
+Cake\ORM\Table::__construct() - CORE/src/ORM/Table.php, line 298
+Cake\ORM\Locator\TableLocator::_create() - CORE/src/ORM/Locator/TableLocator.php, line 257
+Cake\ORM\Locator\TableLocator::get() - CORE/src/ORM/Locator/TableLocator.php, line 224
+Cake\Console\Shell::loadModel() - CORE/src/Datasource/ModelAwareTrait.php, line 112
+App\Shell\TenantEditShell::edit() - APP/Shell/TenantEditShell.php, line 42
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 512
+Cake\Console\CommandRunner::runShell() - CORE/src/Console/CommandRunner.php, line 342
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 164
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2019-04-01 10:31:13 Warning: Warning (512): /var/www/html/classbyte/tmp/cache/persistent/ is not writable in [/var/www/html/classbyte/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 439]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Cache\Engine\FileEngine::_active() - CORE/src/Cache/Engine/FileEngine.php, line 439
+Cake\Cache\Engine\FileEngine::init() - CORE/src/Cache/Engine/FileEngine.php, line 105
+Cake\Cache\CacheRegistry::_create() - CORE/src/Cache/CacheRegistry.php, line 90
+Cake\Core\ObjectRegistry::load() - CORE/src/Core/ObjectRegistry.php, line 97
+Cake\Cache\Cache::_buildEngine() - CORE/src/Cache/Cache.php, line 172
+Cake\Cache\Cache::engine() - CORE/src/Cache/Cache.php, line 232
+Cake\I18n\I18n::translators() - CORE/src/I18n/I18n.php, line 79
+Cake\I18n\I18n::getTranslator() - CORE/src/I18n/I18n.php, line 203
+__d - CORE/src/I18n/functions.php, line 88
+Cake\Validation\Validator::errors() - CORE/src/Validation/Validator.php, line 111
+Cake\ORM\Marshaller::_validate() - CORE/src/ORM/Marshaller.php, line 261
+Cake\ORM\Marshaller::merge() - CORE/src/ORM/Marshaller.php, line 570
+Cake\ORM\Table::patchEntity() - CORE/src/ORM/Table.php, line 2712
+App\Shell\TenantEditShell::edit() - APP/Shell/TenantEditShell.php, line 52
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 512
+Cake\Console\CommandRunner::runShell() - CORE/src/Console/CommandRunner.php, line 342
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 164
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2019-04-01 10:31:13 Warning: Warning (512): _cake_model_ cache was unable to write 'default_course_type_categories' to Cake\Cache\Engine\FileEngine cache in [/var/www/html/classbyte/vendor/cakephp/cakephp/src/Cache/Cache.php, line 290]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Cache\Cache::write() - CORE/src/Cache/Cache.php, line 290
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 66
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 555
+Cake\ORM\Marshaller::_buildPropertyMap() - CORE/src/ORM/Marshaller.php, line 69
+Cake\ORM\Marshaller::one() - CORE/src/ORM/Marshaller.php, line 186
+Cake\ORM\Marshaller::many() - CORE/src/ORM/Marshaller.php, line 362
+Cake\ORM\Marshaller::_marshalAssociation() - CORE/src/ORM/Marshaller.php, line 330
+Cake\ORM\Marshaller::_mergeAssociation() - CORE/src/ORM/Marshaller.php, line 741
+Cake\ORM\Marshaller::Cake\ORM\{closure}() - CORE/src/ORM/Marshaller.php, line 113
+Cake\ORM\Marshaller::merge() - CORE/src/ORM/Marshaller.php, line 584
+Cake\ORM\Table::patchEntity() - CORE/src/ORM/Table.php, line 2712
+App\Shell\TenantEditShell::edit() - APP/Shell/TenantEditShell.php, line 52
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 512
+Cake\Console\CommandRunner::runShell() - CORE/src/Console/CommandRunner.php, line 342
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 164
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2019-04-01 10:31:58 Warning: Warning (512): /var/www/html/classbyte/tmp/cache/models/ is not writable in [/var/www/html/classbyte/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 439]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Cache\Engine\FileEngine::_active() - CORE/src/Cache/Engine/FileEngine.php, line 439
+Cake\Cache\Engine\FileEngine::init() - CORE/src/Cache/Engine/FileEngine.php, line 105
+Cake\Cache\CacheRegistry::_create() - CORE/src/Cache/CacheRegistry.php, line 90
+Cake\Core\ObjectRegistry::load() - CORE/src/Core/ObjectRegistry.php, line 97
+Cake\Cache\Cache::_buildEngine() - CORE/src/Cache/Cache.php, line 172
+Cake\Cache\Cache::engine() - CORE/src/Cache/Cache.php, line 232
+Cake\Cache\Cache::read() - CORE/src/Cache/Cache.php, line 360
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 57
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 555
+Josegonzalez\Upload\Model\Behavior\UploadBehavior::initialize() - ROOT/vendor/josegonzalez/cakephp-upload/src/Model/Behavior/UploadBehavior.php, line 44
+Cake\ORM\Behavior::__construct() - CORE/src/ORM/Behavior.php, line 167
+Cake\ORM\BehaviorRegistry::_create() - CORE/src/ORM/BehaviorRegistry.php, line 146
+Cake\Core\ObjectRegistry::load() - CORE/src/Core/ObjectRegistry.php, line 97
+Cake\ORM\Table::addBehavior() - CORE/src/ORM/Table.php, line 867
+App\Model\Table\TenantsTable::initialize() - APP/Model/Table/TenantsTable.php, line 187
+Cake\ORM\Table::__construct() - CORE/src/ORM/Table.php, line 298
+Cake\ORM\Locator\TableLocator::_create() - CORE/src/ORM/Locator/TableLocator.php, line 257
+Cake\ORM\Locator\TableLocator::get() - CORE/src/ORM/Locator/TableLocator.php, line 224
+Cake\Console\Shell::loadModel() - CORE/src/Datasource/ModelAwareTrait.php, line 112
+App\Shell\TenantEditShell::edit() - APP/Shell/TenantEditShell.php, line 42
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 512
+Cake\Console\CommandRunner::runShell() - CORE/src/Console/CommandRunner.php, line 342
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 164
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2019-04-01 10:31:58 Warning: Warning (512): _cake_model_ cache was unable to write 'default_tenants' to Cake\Cache\Engine\FileEngine cache in [/var/www/html/classbyte/vendor/cakephp/cakephp/src/Cache/Cache.php, line 290]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Cache\Cache::write() - CORE/src/Cache/Cache.php, line 290
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 66
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 555
+Josegonzalez\Upload\Model\Behavior\UploadBehavior::initialize() - ROOT/vendor/josegonzalez/cakephp-upload/src/Model/Behavior/UploadBehavior.php, line 44
+Cake\ORM\Behavior::__construct() - CORE/src/ORM/Behavior.php, line 167
+Cake\ORM\BehaviorRegistry::_create() - CORE/src/ORM/BehaviorRegistry.php, line 146
+Cake\Core\ObjectRegistry::load() - CORE/src/Core/ObjectRegistry.php, line 97
+Cake\ORM\Table::addBehavior() - CORE/src/ORM/Table.php, line 867
+App\Model\Table\TenantsTable::initialize() - APP/Model/Table/TenantsTable.php, line 187
+Cake\ORM\Table::__construct() - CORE/src/ORM/Table.php, line 298
+Cake\ORM\Locator\TableLocator::_create() - CORE/src/ORM/Locator/TableLocator.php, line 257
+Cake\ORM\Locator\TableLocator::get() - CORE/src/ORM/Locator/TableLocator.php, line 224
+Cake\Console\Shell::loadModel() - CORE/src/Datasource/ModelAwareTrait.php, line 112
+App\Shell\TenantEditShell::edit() - APP/Shell/TenantEditShell.php, line 42
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 512
+Cake\Console\CommandRunner::runShell() - CORE/src/Console/CommandRunner.php, line 342
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 164
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2019-04-01 10:31:58 Warning: Warning (512): /var/www/html/classbyte/tmp/cache/persistent/ is not writable in [/var/www/html/classbyte/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 439]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Cache\Engine\FileEngine::_active() - CORE/src/Cache/Engine/FileEngine.php, line 439
+Cake\Cache\Engine\FileEngine::init() - CORE/src/Cache/Engine/FileEngine.php, line 105
+Cake\Cache\CacheRegistry::_create() - CORE/src/Cache/CacheRegistry.php, line 90
+Cake\Core\ObjectRegistry::load() - CORE/src/Core/ObjectRegistry.php, line 97
+Cake\Cache\Cache::_buildEngine() - CORE/src/Cache/Cache.php, line 172
+Cake\Cache\Cache::engine() - CORE/src/Cache/Cache.php, line 232
+Cake\I18n\I18n::translators() - CORE/src/I18n/I18n.php, line 79
+Cake\I18n\I18n::getTranslator() - CORE/src/I18n/I18n.php, line 203
+__d - CORE/src/I18n/functions.php, line 88
+Cake\Validation\Validator::errors() - CORE/src/Validation/Validator.php, line 111
+Cake\ORM\Marshaller::_validate() - CORE/src/ORM/Marshaller.php, line 261
+Cake\ORM\Marshaller::merge() - CORE/src/ORM/Marshaller.php, line 570
+Cake\ORM\Table::patchEntity() - CORE/src/ORM/Table.php, line 2712
+App\Shell\TenantEditShell::edit() - APP/Shell/TenantEditShell.php, line 52
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 512
+Cake\Console\CommandRunner::runShell() - CORE/src/Console/CommandRunner.php, line 342
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 164
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2019-04-01 10:31:58 Warning: Warning (512): _cake_model_ cache was unable to write 'default_course_type_categories' to Cake\Cache\Engine\FileEngine cache in [/var/www/html/classbyte/vendor/cakephp/cakephp/src/Cache/Cache.php, line 290]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Cache\Cache::write() - CORE/src/Cache/Cache.php, line 290
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 66
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 555
+Cake\ORM\Marshaller::_buildPropertyMap() - CORE/src/ORM/Marshaller.php, line 69
+Cake\ORM\Marshaller::one() - CORE/src/ORM/Marshaller.php, line 186
+Cake\ORM\Marshaller::many() - CORE/src/ORM/Marshaller.php, line 362
+Cake\ORM\Marshaller::_marshalAssociation() - CORE/src/ORM/Marshaller.php, line 330
+Cake\ORM\Marshaller::_mergeAssociation() - CORE/src/ORM/Marshaller.php, line 741
+Cake\ORM\Marshaller::Cake\ORM\{closure}() - CORE/src/ORM/Marshaller.php, line 113
+Cake\ORM\Marshaller::merge() - CORE/src/ORM/Marshaller.php, line 584
+Cake\ORM\Table::patchEntity() - CORE/src/ORM/Table.php, line 2712
+App\Shell\TenantEditShell::edit() - APP/Shell/TenantEditShell.php, line 52
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 512
+Cake\Console\CommandRunner::runShell() - CORE/src/Console/CommandRunner.php, line 342
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 164
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2019-04-01 10:32:33 Warning: Warning (512): /var/www/html/classbyte/tmp/cache/models/ is not writable in [/var/www/html/classbyte/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 439]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Cache\Engine\FileEngine::_active() - CORE/src/Cache/Engine/FileEngine.php, line 439
+Cake\Cache\Engine\FileEngine::init() - CORE/src/Cache/Engine/FileEngine.php, line 105
+Cake\Cache\CacheRegistry::_create() - CORE/src/Cache/CacheRegistry.php, line 90
+Cake\Core\ObjectRegistry::load() - CORE/src/Core/ObjectRegistry.php, line 97
+Cake\Cache\Cache::_buildEngine() - CORE/src/Cache/Cache.php, line 172
+Cake\Cache\Cache::engine() - CORE/src/Cache/Cache.php, line 232
+Cake\Cache\Cache::read() - CORE/src/Cache/Cache.php, line 360
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 57
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 555
+Josegonzalez\Upload\Model\Behavior\UploadBehavior::initialize() - ROOT/vendor/josegonzalez/cakephp-upload/src/Model/Behavior/UploadBehavior.php, line 44
+Cake\ORM\Behavior::__construct() - CORE/src/ORM/Behavior.php, line 167
+Cake\ORM\BehaviorRegistry::_create() - CORE/src/ORM/BehaviorRegistry.php, line 146
+Cake\Core\ObjectRegistry::load() - CORE/src/Core/ObjectRegistry.php, line 97
+Cake\ORM\Table::addBehavior() - CORE/src/ORM/Table.php, line 867
+App\Model\Table\TenantsTable::initialize() - APP/Model/Table/TenantsTable.php, line 187
+Cake\ORM\Table::__construct() - CORE/src/ORM/Table.php, line 298
+Cake\ORM\Locator\TableLocator::_create() - CORE/src/ORM/Locator/TableLocator.php, line 257
+Cake\ORM\Locator\TableLocator::get() - CORE/src/ORM/Locator/TableLocator.php, line 224
+Cake\Console\Shell::loadModel() - CORE/src/Datasource/ModelAwareTrait.php, line 112
+App\Shell\TenantEditShell::edit() - APP/Shell/TenantEditShell.php, line 42
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 512
+Cake\Console\CommandRunner::runShell() - CORE/src/Console/CommandRunner.php, line 342
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 164
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2019-04-01 10:32:34 Warning: Warning (512): _cake_model_ cache was unable to write 'default_tenants' to Cake\Cache\Engine\FileEngine cache in [/var/www/html/classbyte/vendor/cakephp/cakephp/src/Cache/Cache.php, line 290]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Cache\Cache::write() - CORE/src/Cache/Cache.php, line 290
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 66
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 555
+Josegonzalez\Upload\Model\Behavior\UploadBehavior::initialize() - ROOT/vendor/josegonzalez/cakephp-upload/src/Model/Behavior/UploadBehavior.php, line 44
+Cake\ORM\Behavior::__construct() - CORE/src/ORM/Behavior.php, line 167
+Cake\ORM\BehaviorRegistry::_create() - CORE/src/ORM/BehaviorRegistry.php, line 146
+Cake\Core\ObjectRegistry::load() - CORE/src/Core/ObjectRegistry.php, line 97
+Cake\ORM\Table::addBehavior() - CORE/src/ORM/Table.php, line 867
+App\Model\Table\TenantsTable::initialize() - APP/Model/Table/TenantsTable.php, line 187
+Cake\ORM\Table::__construct() - CORE/src/ORM/Table.php, line 298
+Cake\ORM\Locator\TableLocator::_create() - CORE/src/ORM/Locator/TableLocator.php, line 257
+Cake\ORM\Locator\TableLocator::get() - CORE/src/ORM/Locator/TableLocator.php, line 224
+Cake\Console\Shell::loadModel() - CORE/src/Datasource/ModelAwareTrait.php, line 112
+App\Shell\TenantEditShell::edit() - APP/Shell/TenantEditShell.php, line 42
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 512
+Cake\Console\CommandRunner::runShell() - CORE/src/Console/CommandRunner.php, line 342
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 164
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2019-04-01 10:33:03 Warning: Warning (512): /var/www/html/classbyte/tmp/cache/models/ is not writable in [/var/www/html/classbyte/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 439]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Cache\Engine\FileEngine::_active() - CORE/src/Cache/Engine/FileEngine.php, line 439
+Cake\Cache\Engine\FileEngine::init() - CORE/src/Cache/Engine/FileEngine.php, line 105
+Cake\Cache\CacheRegistry::_create() - CORE/src/Cache/CacheRegistry.php, line 90
+Cake\Core\ObjectRegistry::load() - CORE/src/Core/ObjectRegistry.php, line 97
+Cake\Cache\Cache::_buildEngine() - CORE/src/Cache/Cache.php, line 172
+Cake\Cache\Cache::engine() - CORE/src/Cache/Cache.php, line 232
+Cake\Cache\Cache::read() - CORE/src/Cache/Cache.php, line 360
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 57
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 555
+Josegonzalez\Upload\Model\Behavior\UploadBehavior::initialize() - ROOT/vendor/josegonzalez/cakephp-upload/src/Model/Behavior/UploadBehavior.php, line 44
+Cake\ORM\Behavior::__construct() - CORE/src/ORM/Behavior.php, line 167
+Cake\ORM\BehaviorRegistry::_create() - CORE/src/ORM/BehaviorRegistry.php, line 146
+Cake\Core\ObjectRegistry::load() - CORE/src/Core/ObjectRegistry.php, line 97
+Cake\ORM\Table::addBehavior() - CORE/src/ORM/Table.php, line 867
+App\Model\Table\TenantsTable::initialize() - APP/Model/Table/TenantsTable.php, line 187
+Cake\ORM\Table::__construct() - CORE/src/ORM/Table.php, line 298
+Cake\ORM\Locator\TableLocator::_create() - CORE/src/ORM/Locator/TableLocator.php, line 257
+Cake\ORM\Locator\TableLocator::get() - CORE/src/ORM/Locator/TableLocator.php, line 224
+Cake\Console\Shell::loadModel() - CORE/src/Datasource/ModelAwareTrait.php, line 112
+App\Shell\TenantEditShell::edit() - APP/Shell/TenantEditShell.php, line 42
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 512
+Cake\Console\CommandRunner::runShell() - CORE/src/Console/CommandRunner.php, line 342
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 164
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2019-04-01 10:33:03 Warning: Warning (512): _cake_model_ cache was unable to write 'default_tenants' to Cake\Cache\Engine\FileEngine cache in [/var/www/html/classbyte/vendor/cakephp/cakephp/src/Cache/Cache.php, line 290]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Cache\Cache::write() - CORE/src/Cache/Cache.php, line 290
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 66
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 555
+Josegonzalez\Upload\Model\Behavior\UploadBehavior::initialize() - ROOT/vendor/josegonzalez/cakephp-upload/src/Model/Behavior/UploadBehavior.php, line 44
+Cake\ORM\Behavior::__construct() - CORE/src/ORM/Behavior.php, line 167
+Cake\ORM\BehaviorRegistry::_create() - CORE/src/ORM/BehaviorRegistry.php, line 146
+Cake\Core\ObjectRegistry::load() - CORE/src/Core/ObjectRegistry.php, line 97
+Cake\ORM\Table::addBehavior() - CORE/src/ORM/Table.php, line 867
+App\Model\Table\TenantsTable::initialize() - APP/Model/Table/TenantsTable.php, line 187
+Cake\ORM\Table::__construct() - CORE/src/ORM/Table.php, line 298
+Cake\ORM\Locator\TableLocator::_create() - CORE/src/ORM/Locator/TableLocator.php, line 257
+Cake\ORM\Locator\TableLocator::get() - CORE/src/ORM/Locator/TableLocator.php, line 224
+Cake\Console\Shell::loadModel() - CORE/src/Datasource/ModelAwareTrait.php, line 112
+App\Shell\TenantEditShell::edit() - APP/Shell/TenantEditShell.php, line 42
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 512
+Cake\Console\CommandRunner::runShell() - CORE/src/Console/CommandRunner.php, line 342
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 164
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2019-04-01 11:46:45 Warning: Warning (2): mkdir(): Permission denied in [/var/www/html/classbyte/vendor/cakephp/bake/src/View/BakeView.php, line 108]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+mkdir - [internal], line ??
+Bake\View\BakeView::initialize() - ROOT/vendor/cakephp/bake/src/View/BakeView.php, line 108
+Cake\View\View::__construct() - CORE/src/View/View.php, line 371
+Bake\Shell\Task\BakeTemplateTask::getView() - ROOT/vendor/cakephp/bake/src/Shell/Task/BakeTemplateTask.php, line 65
+Bake\Shell\Task\BakeTemplateTask::generate() - ROOT/vendor/cakephp/bake/src/Shell/Task/BakeTemplateTask.php, line 88
+Bake\Shell\Task\SimpleBakeTask::bake() - ROOT/vendor/cakephp/bake/src/Shell/Task/SimpleBakeTask.php, line 105
+Migrations\Shell\Task\SimpleMigrationTask::bake() - ROOT/vendor/cakephp/migrations/src/Shell/Task/SimpleMigrationTask.php, line 95
+Migrations\Shell\Task\MigrationTask::bake() - ROOT/vendor/cakephp/migrations/src/Shell/Task/MigrationTask.php, line 40
+Bake\Shell\Task\SimpleBakeTask::main() - ROOT/vendor/cakephp/bake/src/Shell/Task/SimpleBakeTask.php, line 91
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 532
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 525
+Cake\Console\CommandRunner::runShell() - CORE/src/Console/CommandRunner.php, line 342
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 164
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2019-04-01 11:46:46 Warning: Warning (2): file_put_contents(/var/www/html/classbyte/tmp/bake/Bake-config-skeleton-ctp.php): failed to open stream: No such file or directory in [/var/www/html/classbyte/vendor/cakephp/bake/src/View/BakeView.php, line 208]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+file_put_contents - [internal], line ??
+Bake\View\BakeView::_evaluate() - ROOT/vendor/cakephp/bake/src/View/BakeView.php, line 208
+Cake\View\View::_render() - CORE/src/View/View.php, line 1201
+WyriHaximus\TwigView\View\TwigView::_render() - ROOT/vendor/wyrihaximus/twig-view/src/View/TwigView.php, line 166
+Bake\View\BakeView::render() - ROOT/vendor/cakephp/bake/src/View/BakeView.php, line 146
+Bake\Shell\Task\BakeTemplateTask::generate() - ROOT/vendor/cakephp/bake/src/Shell/Task/BakeTemplateTask.php, line 91
+Bake\Shell\Task\SimpleBakeTask::bake() - ROOT/vendor/cakephp/bake/src/Shell/Task/SimpleBakeTask.php, line 105
+Migrations\Shell\Task\SimpleMigrationTask::bake() - ROOT/vendor/cakephp/migrations/src/Shell/Task/SimpleMigrationTask.php, line 95
+Migrations\Shell\Task\MigrationTask::bake() - ROOT/vendor/cakephp/migrations/src/Shell/Task/MigrationTask.php, line 40
+Bake\Shell\Task\SimpleBakeTask::main() - ROOT/vendor/cakephp/bake/src/Shell/Task/SimpleBakeTask.php, line 91
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 532
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 525
+Cake\Console\CommandRunner::runShell() - CORE/src/Console/CommandRunner.php, line 342
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 164
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2019-04-01 11:46:46 Warning: Warning (2): include(/var/www/html/classbyte/tmp/bake/Bake-config-skeleton-ctp.php): failed to open stream: No such file or directory in [/var/www/html/classbyte/vendor/cakephp/bake/src/View/BakeView.php, line 214]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+include - ROOT/vendor/cakephp/bake/src/View/BakeView.php, line 214
+Bake\View\BakeView::_evaluate() - ROOT/vendor/cakephp/bake/src/View/BakeView.php, line 214
+Cake\View\View::_render() - CORE/src/View/View.php, line 1201
+WyriHaximus\TwigView\View\TwigView::_render() - ROOT/vendor/wyrihaximus/twig-view/src/View/TwigView.php, line 166
+Bake\View\BakeView::render() - ROOT/vendor/cakephp/bake/src/View/BakeView.php, line 146
+Bake\Shell\Task\BakeTemplateTask::generate() - ROOT/vendor/cakephp/bake/src/Shell/Task/BakeTemplateTask.php, line 91
+Bake\Shell\Task\SimpleBakeTask::bake() - ROOT/vendor/cakephp/bake/src/Shell/Task/SimpleBakeTask.php, line 105
+Migrations\Shell\Task\SimpleMigrationTask::bake() - ROOT/vendor/cakephp/migrations/src/Shell/Task/SimpleMigrationTask.php, line 95
+Migrations\Shell\Task\MigrationTask::bake() - ROOT/vendor/cakephp/migrations/src/Shell/Task/MigrationTask.php, line 40
+Bake\Shell\Task\SimpleBakeTask::main() - ROOT/vendor/cakephp/bake/src/Shell/Task/SimpleBakeTask.php, line 91
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 532
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 525
+Cake\Console\CommandRunner::runShell() - CORE/src/Console/CommandRunner.php, line 342
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 164
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2019-04-01 11:46:46 Warning: Warning (2): include(): Failed opening '/var/www/html/classbyte/tmp/bake/Bake-config-skeleton-ctp.php' for inclusion (include_path='.:/usr/share/php') in [/var/www/html/classbyte/vendor/cakephp/bake/src/View/BakeView.php, line 214]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+include - ROOT/vendor/cakephp/bake/src/View/BakeView.php, line 214
+Bake\View\BakeView::_evaluate() - ROOT/vendor/cakephp/bake/src/View/BakeView.php, line 214
+Cake\View\View::_render() - CORE/src/View/View.php, line 1201
+WyriHaximus\TwigView\View\TwigView::_render() - ROOT/vendor/wyrihaximus/twig-view/src/View/TwigView.php, line 166
+Bake\View\BakeView::render() - ROOT/vendor/cakephp/bake/src/View/BakeView.php, line 146
+Bake\Shell\Task\BakeTemplateTask::generate() - ROOT/vendor/cakephp/bake/src/Shell/Task/BakeTemplateTask.php, line 91
+Bake\Shell\Task\SimpleBakeTask::bake() - ROOT/vendor/cakephp/bake/src/Shell/Task/SimpleBakeTask.php, line 105
+Migrations\Shell\Task\SimpleMigrationTask::bake() - ROOT/vendor/cakephp/migrations/src/Shell/Task/SimpleMigrationTask.php, line 95
+Migrations\Shell\Task\MigrationTask::bake() - ROOT/vendor/cakephp/migrations/src/Shell/Task/MigrationTask.php, line 40
+Bake\Shell\Task\SimpleBakeTask::main() - ROOT/vendor/cakephp/bake/src/Shell/Task/SimpleBakeTask.php, line 91
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 532
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 525
+Cake\Console\CommandRunner::runShell() - CORE/src/Console/CommandRunner.php, line 342
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 164
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2019-04-01 11:46:46 Error: [RuntimeException] Unable to create the cache directory (/var/www/html/classbyte/tmp/cache/twigView/8c). in /var/www/html/classbyte/vendor/twig/twig/src/Cache/FilesystemCache.php on line 57
+Stack Trace:
+#0 /var/www/html/classbyte/vendor/twig/twig/src/Environment.php(487): Twig\Cache\FilesystemCache->write('/var/www/html/c...', '<?php\n\nuse Twig...')
+#1 /var/www/html/classbyte/vendor/twig/twig/src/Environment.php(446): Twig\Environment->loadClass('__TwigTemplate_...', '/var/www/html/c...', NULL)
+#2 /var/www/html/classbyte/vendor/wyrihaximus/twig-view/src/View/TwigView.php(180): Twig\Environment->loadTemplate('/var/www/html/c...')
+#3 /var/www/html/classbyte/vendor/cakephp/cakephp/src/View/View.php(850): WyriHaximus\TwigView\View\TwigView->_render('/var/www/html/c...')
+#4 /var/www/html/classbyte/vendor/cakephp/bake/src/View/BakeView.php(154): Cake\View\View->renderLayout('', 'default')
+#5 /var/www/html/classbyte/vendor/cakephp/bake/src/Shell/Task/BakeTemplateTask.php(91): Bake\View\BakeView->render('Migrations.conf...')
+#6 /var/www/html/classbyte/vendor/cakephp/bake/src/Shell/Task/SimpleBakeTask.php(105): Bake\Shell\Task\BakeTemplateTask->generate('Migrations.conf...')
+#7 /var/www/html/classbyte/vendor/cakephp/migrations/src/Shell/Task/SimpleMigrationTask.php(95): Bake\Shell\Task\SimpleBakeTask->bake('ChangeColumnInT...')
+#8 /var/www/html/classbyte/vendor/cakephp/migrations/src/Shell/Task/MigrationTask.php(40): Migrations\Shell\Task\SimpleMigrationTask->bake('ChangeColumnInT...')
+#9 /var/www/html/classbyte/vendor/cakephp/bake/src/Shell/Task/SimpleBakeTask.php(91): Migrations\Shell\Task\MigrationTask->bake('ChangeColumnInT...')
+#10 /var/www/html/classbyte/vendor/cakephp/cakephp/src/Console/Shell.php(532): Bake\Shell\Task\SimpleBakeTask->main('ChangeColumnInT...')
+#11 /var/www/html/classbyte/vendor/cakephp/cakephp/src/Console/Shell.php(525): Cake\Console\Shell->runCommand(Array, false, Array)
+#12 /var/www/html/classbyte/vendor/cakephp/cakephp/src/Console/CommandRunner.php(342): Cake\Console\Shell->runCommand(Array, true)
+#13 /var/www/html/classbyte/vendor/cakephp/cakephp/src/Console/CommandRunner.php(164): Cake\Console\CommandRunner->runShell(Object(Bake\Shell\BakeShell), Array)
+#14 /var/www/html/classbyte/bin/cake.php(12): Cake\Console\CommandRunner->run(Array)
+#15 {main}
+
+
+2019-04-01 11:49:19 Warning: Warning (2): mkdir(): Permission denied in [/var/www/html/classbyte/vendor/cakephp/bake/src/View/BakeView.php, line 108]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+mkdir - [internal], line ??
+Bake\View\BakeView::initialize() - ROOT/vendor/cakephp/bake/src/View/BakeView.php, line 108
+Cake\View\View::__construct() - CORE/src/View/View.php, line 371
+Bake\Shell\Task\BakeTemplateTask::getView() - ROOT/vendor/cakephp/bake/src/Shell/Task/BakeTemplateTask.php, line 65
+Bake\Shell\Task\BakeTemplateTask::generate() - ROOT/vendor/cakephp/bake/src/Shell/Task/BakeTemplateTask.php, line 88
+Bake\Shell\Task\SimpleBakeTask::bake() - ROOT/vendor/cakephp/bake/src/Shell/Task/SimpleBakeTask.php, line 105
+Migrations\Shell\Task\SimpleMigrationTask::bake() - ROOT/vendor/cakephp/migrations/src/Shell/Task/SimpleMigrationTask.php, line 95
+Migrations\Shell\Task\MigrationTask::bake() - ROOT/vendor/cakephp/migrations/src/Shell/Task/MigrationTask.php, line 40
+Bake\Shell\Task\SimpleBakeTask::main() - ROOT/vendor/cakephp/bake/src/Shell/Task/SimpleBakeTask.php, line 91
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 532
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 525
+Cake\Console\CommandRunner::runShell() - CORE/src/Console/CommandRunner.php, line 342
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 164
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2019-04-01 11:49:19 Warning: Warning (2): file_put_contents(/var/www/html/classbyte/tmp/bake/Bake-config-skeleton-ctp.php): failed to open stream: No such file or directory in [/var/www/html/classbyte/vendor/cakephp/bake/src/View/BakeView.php, line 208]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+file_put_contents - [internal], line ??
+Bake\View\BakeView::_evaluate() - ROOT/vendor/cakephp/bake/src/View/BakeView.php, line 208
+Cake\View\View::_render() - CORE/src/View/View.php, line 1201
+WyriHaximus\TwigView\View\TwigView::_render() - ROOT/vendor/wyrihaximus/twig-view/src/View/TwigView.php, line 166
+Bake\View\BakeView::render() - ROOT/vendor/cakephp/bake/src/View/BakeView.php, line 146
+Bake\Shell\Task\BakeTemplateTask::generate() - ROOT/vendor/cakephp/bake/src/Shell/Task/BakeTemplateTask.php, line 91
+Bake\Shell\Task\SimpleBakeTask::bake() - ROOT/vendor/cakephp/bake/src/Shell/Task/SimpleBakeTask.php, line 105
+Migrations\Shell\Task\SimpleMigrationTask::bake() - ROOT/vendor/cakephp/migrations/src/Shell/Task/SimpleMigrationTask.php, line 95
+Migrations\Shell\Task\MigrationTask::bake() - ROOT/vendor/cakephp/migrations/src/Shell/Task/MigrationTask.php, line 40
+Bake\Shell\Task\SimpleBakeTask::main() - ROOT/vendor/cakephp/bake/src/Shell/Task/SimpleBakeTask.php, line 91
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 532
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 525
+Cake\Console\CommandRunner::runShell() - CORE/src/Console/CommandRunner.php, line 342
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 164
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2019-04-01 11:49:19 Warning: Warning (2): include(/var/www/html/classbyte/tmp/bake/Bake-config-skeleton-ctp.php): failed to open stream: No such file or directory in [/var/www/html/classbyte/vendor/cakephp/bake/src/View/BakeView.php, line 214]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+include - ROOT/vendor/cakephp/bake/src/View/BakeView.php, line 214
+Bake\View\BakeView::_evaluate() - ROOT/vendor/cakephp/bake/src/View/BakeView.php, line 214
+Cake\View\View::_render() - CORE/src/View/View.php, line 1201
+WyriHaximus\TwigView\View\TwigView::_render() - ROOT/vendor/wyrihaximus/twig-view/src/View/TwigView.php, line 166
+Bake\View\BakeView::render() - ROOT/vendor/cakephp/bake/src/View/BakeView.php, line 146
+Bake\Shell\Task\BakeTemplateTask::generate() - ROOT/vendor/cakephp/bake/src/Shell/Task/BakeTemplateTask.php, line 91
+Bake\Shell\Task\SimpleBakeTask::bake() - ROOT/vendor/cakephp/bake/src/Shell/Task/SimpleBakeTask.php, line 105
+Migrations\Shell\Task\SimpleMigrationTask::bake() - ROOT/vendor/cakephp/migrations/src/Shell/Task/SimpleMigrationTask.php, line 95
+Migrations\Shell\Task\MigrationTask::bake() - ROOT/vendor/cakephp/migrations/src/Shell/Task/MigrationTask.php, line 40
+Bake\Shell\Task\SimpleBakeTask::main() - ROOT/vendor/cakephp/bake/src/Shell/Task/SimpleBakeTask.php, line 91
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 532
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 525
+Cake\Console\CommandRunner::runShell() - CORE/src/Console/CommandRunner.php, line 342
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 164
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2019-04-01 11:49:19 Warning: Warning (2): include(): Failed opening '/var/www/html/classbyte/tmp/bake/Bake-config-skeleton-ctp.php' for inclusion (include_path='.:/usr/share/php') in [/var/www/html/classbyte/vendor/cakephp/bake/src/View/BakeView.php, line 214]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+include - ROOT/vendor/cakephp/bake/src/View/BakeView.php, line 214
+Bake\View\BakeView::_evaluate() - ROOT/vendor/cakephp/bake/src/View/BakeView.php, line 214
+Cake\View\View::_render() - CORE/src/View/View.php, line 1201
+WyriHaximus\TwigView\View\TwigView::_render() - ROOT/vendor/wyrihaximus/twig-view/src/View/TwigView.php, line 166
+Bake\View\BakeView::render() - ROOT/vendor/cakephp/bake/src/View/BakeView.php, line 146
+Bake\Shell\Task\BakeTemplateTask::generate() - ROOT/vendor/cakephp/bake/src/Shell/Task/BakeTemplateTask.php, line 91
+Bake\Shell\Task\SimpleBakeTask::bake() - ROOT/vendor/cakephp/bake/src/Shell/Task/SimpleBakeTask.php, line 105
+Migrations\Shell\Task\SimpleMigrationTask::bake() - ROOT/vendor/cakephp/migrations/src/Shell/Task/SimpleMigrationTask.php, line 95
+Migrations\Shell\Task\MigrationTask::bake() - ROOT/vendor/cakephp/migrations/src/Shell/Task/MigrationTask.php, line 40
+Bake\Shell\Task\SimpleBakeTask::main() - ROOT/vendor/cakephp/bake/src/Shell/Task/SimpleBakeTask.php, line 91
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 532
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 525
+Cake\Console\CommandRunner::runShell() - CORE/src/Console/CommandRunner.php, line 342
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 164
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2019-04-01 11:49:19 Error: [RuntimeException] Unable to create the cache directory (/var/www/html/classbyte/tmp/cache/twigView/8c). in /var/www/html/classbyte/vendor/twig/twig/src/Cache/FilesystemCache.php on line 57
+Stack Trace:
+#0 /var/www/html/classbyte/vendor/twig/twig/src/Environment.php(487): Twig\Cache\FilesystemCache->write('/var/www/html/c...', '<?php\n\nuse Twig...')
+#1 /var/www/html/classbyte/vendor/twig/twig/src/Environment.php(446): Twig\Environment->loadClass('__TwigTemplate_...', '/var/www/html/c...', NULL)
+#2 /var/www/html/classbyte/vendor/wyrihaximus/twig-view/src/View/TwigView.php(180): Twig\Environment->loadTemplate('/var/www/html/c...')
+#3 /var/www/html/classbyte/vendor/cakephp/cakephp/src/View/View.php(850): WyriHaximus\TwigView\View\TwigView->_render('/var/www/html/c...')
+#4 /var/www/html/classbyte/vendor/cakephp/bake/src/View/BakeView.php(154): Cake\View\View->renderLayout('', 'default')
+#5 /var/www/html/classbyte/vendor/cakephp/bake/src/Shell/Task/BakeTemplateTask.php(91): Bake\View\BakeView->render('Migrations.conf...')
+#6 /var/www/html/classbyte/vendor/cakephp/bake/src/Shell/Task/SimpleBakeTask.php(105): Bake\Shell\Task\BakeTemplateTask->generate('Migrations.conf...')
+#7 /var/www/html/classbyte/vendor/cakephp/migrations/src/Shell/Task/SimpleMigrationTask.php(95): Bake\Shell\Task\SimpleBakeTask->bake('ChangeColumnInT...')
+#8 /var/www/html/classbyte/vendor/cakephp/migrations/src/Shell/Task/MigrationTask.php(40): Migrations\Shell\Task\SimpleMigrationTask->bake('ChangeColumnInT...')
+#9 /var/www/html/classbyte/vendor/cakephp/bake/src/Shell/Task/SimpleBakeTask.php(91): Migrations\Shell\Task\MigrationTask->bake('ChangeColumnInT...')
+#10 /var/www/html/classbyte/vendor/cakephp/cakephp/src/Console/Shell.php(532): Bake\Shell\Task\SimpleBakeTask->main('ChangeColumnInT...')
+#11 /var/www/html/classbyte/vendor/cakephp/cakephp/src/Console/Shell.php(525): Cake\Console\Shell->runCommand(Array, false, Array)
+#12 /var/www/html/classbyte/vendor/cakephp/cakephp/src/Console/CommandRunner.php(342): Cake\Console\Shell->runCommand(Array, true)
+#13 /var/www/html/classbyte/vendor/cakephp/cakephp/src/Console/CommandRunner.php(164): Cake\Console\CommandRunner->runShell(Object(Bake\Shell\BakeShell), Array)
+#14 /var/www/html/classbyte/bin/cake.php(12): Cake\Console\CommandRunner->run(Array)
+#15 {main}
+
+
+2019-04-01 12:21:09 Error: [PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'classbytes.transfer_courses' doesn't exist in /var/www/html/classbyte/vendor/robmorgan/phinx/src/Phinx/Db/Adapter/PdoAdapter.php on line 194
+Stack Trace:
+#0 /var/www/html/classbyte/vendor/robmorgan/phinx/src/Phinx/Db/Adapter/PdoAdapter.php(194): PDO->query('SHOW FULL COLUM...')
+#1 /var/www/html/classbyte/vendor/robmorgan/phinx/src/Phinx/Db/Adapter/PdoAdapter.php(213): Phinx\Db\Adapter\PdoAdapter->query('SHOW FULL COLUM...')
+#2 /var/www/html/classbyte/vendor/robmorgan/phinx/src/Phinx/Db/Adapter/MysqlAdapter.php(458): Phinx\Db\Adapter\PdoAdapter->fetchAll('SHOW FULL COLUM...')
+#3 /var/www/html/classbyte/vendor/robmorgan/phinx/src/Phinx/Db/Adapter/PdoAdapter.php(845): Phinx\Db\Adapter\MysqlAdapter->getRenameColumnInstructions('transfer_course...', 'assigner_uuid', 'assignee_uuid')
+#4 /var/www/html/classbyte/vendor/robmorgan/phinx/src/Phinx/Db/Adapter/AdapterWrapper.php(477): Phinx\Db\Adapter\PdoAdapter->executeActions(Object(Phinx\Db\Table\Table), Array)
+#5 /var/www/html/classbyte/vendor/robmorgan/phinx/src/Phinx/Db/Adapter/TimedOutputAdapter.php(406): Phinx\Db\Adapter\AdapterWrapper->executeActions(Object(Phinx\Db\Table\Table), Array)
+#6 /var/www/html/classbyte/vendor/robmorgan/phinx/src/Phinx/Db/Adapter/AdapterWrapper.php(477): Phinx\Db\Adapter\TimedOutputAdapter->executeActions(Object(Phinx\Db\Table\Table), Array)
+#7 /var/www/html/classbyte/vendor/robmorgan/phinx/src/Phinx/Db/Plan/Plan.php(144): Phinx\Db\Adapter\AdapterWrapper->executeActions(Object(Phinx\Db\Table\Table), Array)
+#8 /var/www/html/classbyte/vendor/cakephp/cakephp/src/Collection/CollectionTrait.php(51): Phinx\Db\Plan\Plan->Phinx\Db\Plan\{closure}(Object(Phinx\Db\Plan\AlterTable), 'transfer_course...')
+#9 /var/www/html/classbyte/vendor/robmorgan/phinx/src/Phinx/Db/Plan/Plan.php(145): Cake\Collection\Collection->each(Object(Closure))
+#10 /var/www/html/classbyte/vendor/robmorgan/phinx/src/Phinx/Db/Table.php(717): Phinx\Db\Plan\Plan->execute(Object(Migrations\CakeAdapter))
+#11 /var/www/html/classbyte/vendor/robmorgan/phinx/src/Phinx/Db/Table.php(624): Phinx\Db\Table->executeActions(true)
+#12 /var/www/html/classbyte/vendor/cakephp/migrations/src/Table.php(103): Phinx\Db\Table->update()
+#13 /var/www/html/classbyte/config/Migrations/20190401115103_ChangeColumnInTransferCourses.php(21): Migrations\Table->update()
+#14 /var/www/html/classbyte/vendor/robmorgan/phinx/src/Phinx/Migration/Manager/Environment.php(125): ChangeColumnInTransferCourses->change()
+#15 /var/www/html/classbyte/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php(387): Phinx\Migration\Manager\Environment->executeMigration(Object(ChangeColumnInTransferCourses), 'up', false)
+#16 /var/www/html/classbyte/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php(361): Phinx\Migration\Manager->executeMigration('default', Object(ChangeColumnInTransferCourses), 'up', false)
+#17 /var/www/html/classbyte/vendor/robmorgan/phinx/src/Phinx/Console/Command/Migrate.php(121): Phinx\Migration\Manager->migrate('default', 20190401115103, false)
+#18 /var/www/html/classbyte/vendor/cakephp/migrations/src/Command/CommandTrait.php(35): Phinx\Console\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#19 /var/www/html/classbyte/vendor/cakephp/migrations/src/Command/Migrate.php(67): Migrations\Command\Migrate->parentExecute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#20 /var/www/html/classbyte/vendor/symfony/console/Command/Command.php(255): Migrations\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#21 /var/www/html/classbyte/vendor/symfony/console/Application.php(960): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#22 /var/www/html/classbyte/vendor/symfony/console/Application.php(255): Symfony\Component\Console\Application->doRunCommand(Object(Migrations\Command\Migrate), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#23 /var/www/html/classbyte/vendor/symfony/console/Application.php(148): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#24 /var/www/html/classbyte/vendor/cakephp/migrations/src/Shell/MigrationsShell.php(108): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#25 /var/www/html/classbyte/vendor/cakephp/cakephp/src/Console/Shell.php(532): Migrations\Shell\MigrationsShell->main('migrations', 'migrate')
+#26 /var/www/html/classbyte/vendor/cakephp/migrations/src/Shell/MigrationsShell.php(164): Cake\Console\Shell->runCommand(Array, true, Array)
+#27 /var/www/html/classbyte/vendor/cakephp/cakephp/src/Console/CommandRunner.php(342): Migrations\Shell\MigrationsShell->runCommand(Array, true)
+#28 /var/www/html/classbyte/vendor/cakephp/cakephp/src/Console/CommandRunner.php(164): Cake\Console\CommandRunner->runShell(Object(Migrations\Shell\MigrationsShell), Array)
+#29 /var/www/html/classbyte/bin/cake.php(12): Cake\Console\CommandRunner->run(Array)
+#30 {main}
+
+
+2019-04-01 12:22:12 Error: [InvalidArgumentException] The specified column doesn't exist: assigner_uuid in /var/www/html/classbyte/vendor/robmorgan/phinx/src/Phinx/Db/Adapter/MysqlAdapter.php on line 481
+Stack Trace:
+#0 /var/www/html/classbyte/vendor/robmorgan/phinx/src/Phinx/Db/Adapter/PdoAdapter.php(845): Phinx\Db\Adapter\MysqlAdapter->getRenameColumnInstructions('transfer_course...', 'assigner_uuid', 'assignee_uuid')
+#1 /var/www/html/classbyte/vendor/robmorgan/phinx/src/Phinx/Db/Adapter/AdapterWrapper.php(477): Phinx\Db\Adapter\PdoAdapter->executeActions(Object(Phinx\Db\Table\Table), Array)
+#2 /var/www/html/classbyte/vendor/robmorgan/phinx/src/Phinx/Db/Adapter/TimedOutputAdapter.php(406): Phinx\Db\Adapter\AdapterWrapper->executeActions(Object(Phinx\Db\Table\Table), Array)
+#3 /var/www/html/classbyte/vendor/robmorgan/phinx/src/Phinx/Db/Adapter/AdapterWrapper.php(477): Phinx\Db\Adapter\TimedOutputAdapter->executeActions(Object(Phinx\Db\Table\Table), Array)
+#4 /var/www/html/classbyte/vendor/robmorgan/phinx/src/Phinx/Db/Plan/Plan.php(144): Phinx\Db\Adapter\AdapterWrapper->executeActions(Object(Phinx\Db\Table\Table), Array)
+#5 /var/www/html/classbyte/vendor/cakephp/cakephp/src/Collection/CollectionTrait.php(51): Phinx\Db\Plan\Plan->Phinx\Db\Plan\{closure}(Object(Phinx\Db\Plan\AlterTable), 'transfer_course...')
+#6 /var/www/html/classbyte/vendor/robmorgan/phinx/src/Phinx/Db/Plan/Plan.php(145): Cake\Collection\Collection->each(Object(Closure))
+#7 /var/www/html/classbyte/vendor/robmorgan/phinx/src/Phinx/Db/Table.php(717): Phinx\Db\Plan\Plan->execute(Object(Migrations\CakeAdapter))
+#8 /var/www/html/classbyte/vendor/robmorgan/phinx/src/Phinx/Db/Table.php(624): Phinx\Db\Table->executeActions(true)
+#9 /var/www/html/classbyte/vendor/cakephp/migrations/src/Table.php(103): Phinx\Db\Table->update()
+#10 /var/www/html/classbyte/config/Migrations/20190401115103_ChangeColumnInTransferCourses.php(21): Migrations\Table->update()
+#11 /var/www/html/classbyte/vendor/robmorgan/phinx/src/Phinx/Migration/Manager/Environment.php(125): ChangeColumnInTransferCourses->change()
+#12 /var/www/html/classbyte/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php(387): Phinx\Migration\Manager\Environment->executeMigration(Object(ChangeColumnInTransferCourses), 'up', false)
+#13 /var/www/html/classbyte/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php(361): Phinx\Migration\Manager->executeMigration('default', Object(ChangeColumnInTransferCourses), 'up', false)
+#14 /var/www/html/classbyte/vendor/robmorgan/phinx/src/Phinx/Console/Command/Migrate.php(121): Phinx\Migration\Manager->migrate('default', 20190401115103, false)
+#15 /var/www/html/classbyte/vendor/cakephp/migrations/src/Command/CommandTrait.php(35): Phinx\Console\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#16 /var/www/html/classbyte/vendor/cakephp/migrations/src/Command/Migrate.php(67): Migrations\Command\Migrate->parentExecute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#17 /var/www/html/classbyte/vendor/symfony/console/Command/Command.php(255): Migrations\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#18 /var/www/html/classbyte/vendor/symfony/console/Application.php(960): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#19 /var/www/html/classbyte/vendor/symfony/console/Application.php(255): Symfony\Component\Console\Application->doRunCommand(Object(Migrations\Command\Migrate), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#20 /var/www/html/classbyte/vendor/symfony/console/Application.php(148): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#21 /var/www/html/classbyte/vendor/cakephp/migrations/src/Shell/MigrationsShell.php(108): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#22 /var/www/html/classbyte/vendor/cakephp/cakephp/src/Console/Shell.php(532): Migrations\Shell\MigrationsShell->main('migrations', 'migrate')
+#23 /var/www/html/classbyte/vendor/cakephp/migrations/src/Shell/MigrationsShell.php(164): Cake\Console\Shell->runCommand(Array, true, Array)
+#24 /var/www/html/classbyte/vendor/cakephp/cakephp/src/Console/CommandRunner.php(342): Migrations\Shell\MigrationsShell->runCommand(Array, true)
+#25 /var/www/html/classbyte/vendor/cakephp/cakephp/src/Console/CommandRunner.php(164): Cake\Console\CommandRunner->runShell(Object(Migrations\Shell\MigrationsShell), Array)
+#26 /var/www/html/classbyte/bin/cake.php(12): Cake\Console\CommandRunner->run(Array)
+#27 {main}
+
+
+2019-04-03 13:03:21 Error: [InvalidArgumentException] The specified column doesn't exist: assigner_uuid in /var/www/html/classbyte/vendor/robmorgan/phinx/src/Phinx/Db/Adapter/MysqlAdapter.php on line 481
+Stack Trace:
+#0 /var/www/html/classbyte/vendor/robmorgan/phinx/src/Phinx/Db/Adapter/PdoAdapter.php(845): Phinx\Db\Adapter\MysqlAdapter->getRenameColumnInstructions('transfer_course...', 'assigner_uuid', 'assignee_uuid')
+#1 /var/www/html/classbyte/vendor/robmorgan/phinx/src/Phinx/Db/Adapter/AdapterWrapper.php(477): Phinx\Db\Adapter\PdoAdapter->executeActions(Object(Phinx\Db\Table\Table), Array)
+#2 /var/www/html/classbyte/vendor/robmorgan/phinx/src/Phinx/Db/Adapter/TimedOutputAdapter.php(406): Phinx\Db\Adapter\AdapterWrapper->executeActions(Object(Phinx\Db\Table\Table), Array)
+#3 /var/www/html/classbyte/vendor/robmorgan/phinx/src/Phinx/Db/Adapter/AdapterWrapper.php(477): Phinx\Db\Adapter\TimedOutputAdapter->executeActions(Object(Phinx\Db\Table\Table), Array)
+#4 /var/www/html/classbyte/vendor/robmorgan/phinx/src/Phinx/Db/Plan/Plan.php(144): Phinx\Db\Adapter\AdapterWrapper->executeActions(Object(Phinx\Db\Table\Table), Array)
+#5 /var/www/html/classbyte/vendor/cakephp/cakephp/src/Collection/CollectionTrait.php(51): Phinx\Db\Plan\Plan->Phinx\Db\Plan\{closure}(Object(Phinx\Db\Plan\AlterTable), 'transfer_course...')
+#6 /var/www/html/classbyte/vendor/robmorgan/phinx/src/Phinx/Db/Plan/Plan.php(145): Cake\Collection\Collection->each(Object(Closure))
+#7 /var/www/html/classbyte/vendor/robmorgan/phinx/src/Phinx/Db/Table.php(717): Phinx\Db\Plan\Plan->execute(Object(Migrations\CakeAdapter))
+#8 /var/www/html/classbyte/vendor/robmorgan/phinx/src/Phinx/Db/Table.php(624): Phinx\Db\Table->executeActions(true)
+#9 /var/www/html/classbyte/vendor/cakephp/migrations/src/Table.php(103): Phinx\Db\Table->update()
+#10 /var/www/html/classbyte/config/Migrations/20190401115103_ChangeColumnInTransferCourses.php(21): Migrations\Table->update()
+#11 /var/www/html/classbyte/vendor/robmorgan/phinx/src/Phinx/Migration/Manager/Environment.php(125): ChangeColumnInTransferCourses->change()
+#12 /var/www/html/classbyte/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php(387): Phinx\Migration\Manager\Environment->executeMigration(Object(ChangeColumnInTransferCourses), 'up', false)
+#13 /var/www/html/classbyte/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php(361): Phinx\Migration\Manager->executeMigration('default', Object(ChangeColumnInTransferCourses), 'up', false)
+#14 /var/www/html/classbyte/vendor/robmorgan/phinx/src/Phinx/Console/Command/Migrate.php(121): Phinx\Migration\Manager->migrate('default', 20190401115103, false)
+#15 /var/www/html/classbyte/vendor/cakephp/migrations/src/Command/CommandTrait.php(35): Phinx\Console\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#16 /var/www/html/classbyte/vendor/cakephp/migrations/src/Command/Migrate.php(67): Migrations\Command\Migrate->parentExecute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#17 /var/www/html/classbyte/vendor/symfony/console/Command/Command.php(255): Migrations\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#18 /var/www/html/classbyte/vendor/symfony/console/Application.php(960): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#19 /var/www/html/classbyte/vendor/symfony/console/Application.php(255): Symfony\Component\Console\Application->doRunCommand(Object(Migrations\Command\Migrate), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#20 /var/www/html/classbyte/vendor/symfony/console/Application.php(148): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#21 /var/www/html/classbyte/vendor/cakephp/migrations/src/Shell/MigrationsShell.php(108): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#22 /var/www/html/classbyte/vendor/cakephp/cakephp/src/Console/Shell.php(532): Migrations\Shell\MigrationsShell->main('migrations', 'migrate')
+#23 /var/www/html/classbyte/vendor/cakephp/migrations/src/Shell/MigrationsShell.php(164): Cake\Console\Shell->runCommand(Array, true, Array)
+#24 /var/www/html/classbyte/vendor/cakephp/cakephp/src/Console/CommandRunner.php(342): Migrations\Shell\MigrationsShell->runCommand(Array, true)
+#25 /var/www/html/classbyte/vendor/cakephp/cakephp/src/Console/CommandRunner.php(164): Cake\Console\CommandRunner->runShell(Object(Migrations\Shell\MigrationsShell), Array)
+#26 /var/www/html/classbyte/bin/cake.php(12): Cake\Console\CommandRunner->run(Array)
+#27 {main}
+
+
+2019-04-09 06:50:41 Warning: Warning (512): SplFileInfo::openFile(/var/www/html/classbyte/tmp/cache/models/myapp_cake_model_default_courses): failed to open stream: Permission denied in [/var/www/html/classbyte/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 399]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 399
+Cake\Cache\Engine\FileEngine::read() - CORE/src/Cache/Engine/FileEngine.php, line 184
+Cake\Cache\Cache::read() - CORE/src/Cache/Cache.php, line 362
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 57
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 555
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 271
+Cake\ORM\Query::__construct() - CORE/src/ORM/Query.php, line 169
+Cake\ORM\Table::query() - CORE/src/ORM/Table.php, line 1765
+Cake\ORM\Table::find() - CORE/src/ORM/Table.php, line 1357
+App\Shell\UpdateCourseInstructorsShell::updateCourseInstructors() - APP/Shell/updateCourseInstructorsShell.php, line 40
+App\Shell\UpdateCourseInstructorsShell::main() - APP/Shell/updateCourseInstructorsShell.php, line 34
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 532
+Cake\Console\CommandRunner::runShell() - CORE/src/Console/CommandRunner.php, line 342
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 164
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2019-04-09 06:50:41 Warning: Warning (512): SplFileInfo::openFile(/var/www/html/classbyte/tmp/cache/models/myapp_cake_model_default_courses): failed to open stream: Permission denied in [/var/www/html/classbyte/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 399]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 399
+Cake\Cache\Engine\FileEngine::write() - CORE/src/Cache/Engine/FileEngine.php, line 134
+Cake\Cache\Cache::write() - CORE/src/Cache/Cache.php, line 281
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 66
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 555
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 271
+Cake\ORM\Query::__construct() - CORE/src/ORM/Query.php, line 169
+Cake\ORM\Table::query() - CORE/src/ORM/Table.php, line 1765
+Cake\ORM\Table::find() - CORE/src/ORM/Table.php, line 1357
+App\Shell\UpdateCourseInstructorsShell::updateCourseInstructors() - APP/Shell/updateCourseInstructorsShell.php, line 40
+App\Shell\UpdateCourseInstructorsShell::main() - APP/Shell/updateCourseInstructorsShell.php, line 34
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 532
+Cake\Console\CommandRunner::runShell() - CORE/src/Console/CommandRunner.php, line 342
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 164
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2019-04-09 06:50:41 Warning: Warning (512): _cake_model_ cache was unable to write 'default_courses' to Cake\Cache\Engine\FileEngine cache in [/var/www/html/classbyte/vendor/cakephp/cakephp/src/Cache/Cache.php, line 290]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Cache\Cache::write() - CORE/src/Cache/Cache.php, line 290
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 66
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 555
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 271
+Cake\ORM\Query::__construct() - CORE/src/ORM/Query.php, line 169
+Cake\ORM\Table::query() - CORE/src/ORM/Table.php, line 1765
+Cake\ORM\Table::find() - CORE/src/ORM/Table.php, line 1357
+App\Shell\UpdateCourseInstructorsShell::updateCourseInstructors() - APP/Shell/updateCourseInstructorsShell.php, line 40
+App\Shell\UpdateCourseInstructorsShell::main() - APP/Shell/updateCourseInstructorsShell.php, line 34
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 532
+Cake\Console\CommandRunner::runShell() - CORE/src/Console/CommandRunner.php, line 342
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 164
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2019-04-09 06:50:41 Warning: Warning (512): SplFileInfo::openFile(/var/www/html/classbyte/tmp/cache/models/myapp_cake_model_default_course_instructors): failed to open stream: Permission denied in [/var/www/html/classbyte/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 399]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 399
+Cake\Cache\Engine\FileEngine::read() - CORE/src/Cache/Engine/FileEngine.php, line 184
+Cake\Cache\Cache::read() - CORE/src/Cache/Cache.php, line 362
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 57
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 555
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 271
+Cake\ORM\Query::_addAssociationsToTypeMap() - CORE/src/ORM/Query.php, line 526
+Cake\ORM\Query::contain() - CORE/src/ORM/Query.php, line 479
+App\Shell\UpdateCourseInstructorsShell::updateCourseInstructors() - APP/Shell/updateCourseInstructorsShell.php, line 40
+App\Shell\UpdateCourseInstructorsShell::main() - APP/Shell/updateCourseInstructorsShell.php, line 34
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 532
+Cake\Console\CommandRunner::runShell() - CORE/src/Console/CommandRunner.php, line 342
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 164
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2019-04-09 06:50:41 Warning: Warning (512): SplFileInfo::openFile(/var/www/html/classbyte/tmp/cache/models/myapp_cake_model_default_course_instructors): failed to open stream: Permission denied in [/var/www/html/classbyte/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 399]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 399
+Cake\Cache\Engine\FileEngine::write() - CORE/src/Cache/Engine/FileEngine.php, line 134
+Cake\Cache\Cache::write() - CORE/src/Cache/Cache.php, line 281
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 66
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 555
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 271
+Cake\ORM\Query::_addAssociationsToTypeMap() - CORE/src/ORM/Query.php, line 526
+Cake\ORM\Query::contain() - CORE/src/ORM/Query.php, line 479
+App\Shell\UpdateCourseInstructorsShell::updateCourseInstructors() - APP/Shell/updateCourseInstructorsShell.php, line 40
+App\Shell\UpdateCourseInstructorsShell::main() - APP/Shell/updateCourseInstructorsShell.php, line 34
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 532
+Cake\Console\CommandRunner::runShell() - CORE/src/Console/CommandRunner.php, line 342
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 164
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2019-04-09 06:50:41 Warning: Warning (512): _cake_model_ cache was unable to write 'default_course_instructors' to Cake\Cache\Engine\FileEngine cache in [/var/www/html/classbyte/vendor/cakephp/cakephp/src/Cache/Cache.php, line 290]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Cache\Cache::write() - CORE/src/Cache/Cache.php, line 290
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 66
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 555
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 271
+Cake\ORM\Query::_addAssociationsToTypeMap() - CORE/src/ORM/Query.php, line 526
+Cake\ORM\Query::contain() - CORE/src/ORM/Query.php, line 479
+App\Shell\UpdateCourseInstructorsShell::updateCourseInstructors() - APP/Shell/updateCourseInstructorsShell.php, line 40
+App\Shell\UpdateCourseInstructorsShell::main() - APP/Shell/updateCourseInstructorsShell.php, line 34
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 532
+Cake\Console\CommandRunner::runShell() - CORE/src/Console/CommandRunner.php, line 342
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 164
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2019-04-09 10:57:00 Error: [ParseError] syntax error, unexpected ')' in /var/www/html/classbyte/src/Shell/updateCourseInstructorsShell.php on line 46
+Stack Trace:
+#0 /var/www/html/classbyte/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/var/www/html/c...')
+#1 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Shell\\updat...')
+#2 [internal function]: spl_autoload_call('App\\Shell\\updat...')
+#3 /var/www/html/classbyte/vendor/cakephp/cakephp/src/Console/CommandScanner.php(134): is_subclass_of('App\\Shell\\updat...', 'Cake\\Console\\Sh...')
+#4 /var/www/html/classbyte/vendor/cakephp/cakephp/src/Console/CommandScanner.php(66): Cake\Console\CommandScanner->scanDir('/var/www/html/c...', 'App\\Shell\\', '', Array)
+#5 /var/www/html/classbyte/vendor/cakephp/cakephp/src/Console/CommandCollection.php(218): Cake\Console\CommandScanner->scanApp()
+#6 /var/www/html/classbyte/vendor/cakephp/cakephp/src/Http/BaseApplication.php(206): Cake\Console\CommandCollection->autoDiscover()
+#7 /var/www/html/classbyte/vendor/cakephp/cakephp/src/Console/CommandRunner.php(142): Cake\Http\BaseApplication->console(Object(Cake\Console\CommandCollection))
+#8 /var/www/html/classbyte/bin/cake.php(12): Cake\Console\CommandRunner->run(Array)
+#9 {main}
+
+
+2019-04-09 10:57:23 Warning: Warning (512): SplFileInfo::openFile(/var/www/html/classbyte/tmp/cache/models/myapp_cake_model_default_courses): failed to open stream: Permission denied in [/var/www/html/classbyte/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 399]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 399
+Cake\Cache\Engine\FileEngine::read() - CORE/src/Cache/Engine/FileEngine.php, line 184
+Cake\Cache\Cache::read() - CORE/src/Cache/Cache.php, line 362
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 57
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 555
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 271
+Cake\ORM\Query::__construct() - CORE/src/ORM/Query.php, line 169
+Cake\ORM\Table::query() - CORE/src/ORM/Table.php, line 1765
+Cake\ORM\Table::find() - CORE/src/ORM/Table.php, line 1357
+App\Shell\UpdateCourseInstructorsShell::updateCourseInstructors() - APP/Shell/updateCourseInstructorsShell.php, line 41
+App\Shell\UpdateCourseInstructorsShell::main() - APP/Shell/updateCourseInstructorsShell.php, line 34
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 532
+Cake\Console\CommandRunner::runShell() - CORE/src/Console/CommandRunner.php, line 342
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 164
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2019-04-09 10:57:23 Warning: Warning (512): SplFileInfo::openFile(/var/www/html/classbyte/tmp/cache/models/myapp_cake_model_default_courses): failed to open stream: Permission denied in [/var/www/html/classbyte/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 399]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 399
+Cake\Cache\Engine\FileEngine::write() - CORE/src/Cache/Engine/FileEngine.php, line 134
+Cake\Cache\Cache::write() - CORE/src/Cache/Cache.php, line 281
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 66
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 555
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 271
+Cake\ORM\Query::__construct() - CORE/src/ORM/Query.php, line 169
+Cake\ORM\Table::query() - CORE/src/ORM/Table.php, line 1765
+Cake\ORM\Table::find() - CORE/src/ORM/Table.php, line 1357
+App\Shell\UpdateCourseInstructorsShell::updateCourseInstructors() - APP/Shell/updateCourseInstructorsShell.php, line 41
+App\Shell\UpdateCourseInstructorsShell::main() - APP/Shell/updateCourseInstructorsShell.php, line 34
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 532
+Cake\Console\CommandRunner::runShell() - CORE/src/Console/CommandRunner.php, line 342
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 164
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2019-04-09 10:57:23 Warning: Warning (512): _cake_model_ cache was unable to write 'default_courses' to Cake\Cache\Engine\FileEngine cache in [/var/www/html/classbyte/vendor/cakephp/cakephp/src/Cache/Cache.php, line 290]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Cache\Cache::write() - CORE/src/Cache/Cache.php, line 290
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 66
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 555
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 271
+Cake\ORM\Query::__construct() - CORE/src/ORM/Query.php, line 169
+Cake\ORM\Table::query() - CORE/src/ORM/Table.php, line 1765
+Cake\ORM\Table::find() - CORE/src/ORM/Table.php, line 1357
+App\Shell\UpdateCourseInstructorsShell::updateCourseInstructors() - APP/Shell/updateCourseInstructorsShell.php, line 41
+App\Shell\UpdateCourseInstructorsShell::main() - APP/Shell/updateCourseInstructorsShell.php, line 34
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 532
+Cake\Console\CommandRunner::runShell() - CORE/src/Console/CommandRunner.php, line 342
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 164
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2019-04-09 10:57:23 Warning: Warning (512): SplFileInfo::openFile(/var/www/html/classbyte/tmp/cache/models/myapp_cake_model_default_course_instructors): failed to open stream: Permission denied in [/var/www/html/classbyte/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 399]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 399
+Cake\Cache\Engine\FileEngine::read() - CORE/src/Cache/Engine/FileEngine.php, line 184
+Cake\Cache\Cache::read() - CORE/src/Cache/Cache.php, line 362
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 57
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 555
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 271
+Cake\ORM\Query::_addAssociationsToTypeMap() - CORE/src/ORM/Query.php, line 526
+Cake\ORM\Query::contain() - CORE/src/ORM/Query.php, line 479
+App\Shell\UpdateCourseInstructorsShell::updateCourseInstructors() - APP/Shell/updateCourseInstructorsShell.php, line 41
+App\Shell\UpdateCourseInstructorsShell::main() - APP/Shell/updateCourseInstructorsShell.php, line 34
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 532
+Cake\Console\CommandRunner::runShell() - CORE/src/Console/CommandRunner.php, line 342
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 164
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2019-04-09 10:57:23 Warning: Warning (512): SplFileInfo::openFile(/var/www/html/classbyte/tmp/cache/models/myapp_cake_model_default_course_instructors): failed to open stream: Permission denied in [/var/www/html/classbyte/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 399]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 399
+Cake\Cache\Engine\FileEngine::write() - CORE/src/Cache/Engine/FileEngine.php, line 134
+Cake\Cache\Cache::write() - CORE/src/Cache/Cache.php, line 281
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 66
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 555
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 271
+Cake\ORM\Query::_addAssociationsToTypeMap() - CORE/src/ORM/Query.php, line 526
+Cake\ORM\Query::contain() - CORE/src/ORM/Query.php, line 479
+App\Shell\UpdateCourseInstructorsShell::updateCourseInstructors() - APP/Shell/updateCourseInstructorsShell.php, line 41
+App\Shell\UpdateCourseInstructorsShell::main() - APP/Shell/updateCourseInstructorsShell.php, line 34
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 532
+Cake\Console\CommandRunner::runShell() - CORE/src/Console/CommandRunner.php, line 342
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 164
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2019-04-09 10:57:23 Warning: Warning (512): _cake_model_ cache was unable to write 'default_course_instructors' to Cake\Cache\Engine\FileEngine cache in [/var/www/html/classbyte/vendor/cakephp/cakephp/src/Cache/Cache.php, line 290]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Cache\Cache::write() - CORE/src/Cache/Cache.php, line 290
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 66
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 555
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 271
+Cake\ORM\Query::_addAssociationsToTypeMap() - CORE/src/ORM/Query.php, line 526
+Cake\ORM\Query::contain() - CORE/src/ORM/Query.php, line 479
+App\Shell\UpdateCourseInstructorsShell::updateCourseInstructors() - APP/Shell/updateCourseInstructorsShell.php, line 41
+App\Shell\UpdateCourseInstructorsShell::main() - APP/Shell/updateCourseInstructorsShell.php, line 34
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 532
+Cake\Console\CommandRunner::runShell() - CORE/src/Console/CommandRunner.php, line 342
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 164
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2019-04-09 10:57:23 Warning: Warning (512): SplFileInfo::openFile(/var/www/html/classbyte/tmp/cache/persistent/myapp_cake_core_translations_cake_en__u_s): failed to open stream: Permission denied in [/var/www/html/classbyte/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 399]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 399
+Cake\Cache\Engine\FileEngine::read() - CORE/src/Cache/Engine/FileEngine.php, line 184
+Cake\I18n\TranslatorRegistry::get() - CORE/src/I18n/TranslatorRegistry.php, line 148
+Cake\I18n\I18n::getTranslator() - CORE/src/I18n/I18n.php, line 210
+__d - CORE/src/I18n/functions.php, line 88
+Cake\Validation\Validator::errors() - CORE/src/Validation/Validator.php, line 111
+Cake\ORM\Marshaller::_validate() - CORE/src/ORM/Marshaller.php, line 261
+Cake\ORM\Marshaller::merge() - CORE/src/ORM/Marshaller.php, line 570
+Cake\ORM\Table::patchEntity() - CORE/src/ORM/Table.php, line 2712
+App\Shell\UpdateCourseInstructorsShell::updateCourseInstructors() - APP/Shell/updateCourseInstructorsShell.php, line 53
+App\Shell\UpdateCourseInstructorsShell::main() - APP/Shell/updateCourseInstructorsShell.php, line 34
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 532
+Cake\Console\CommandRunner::runShell() - CORE/src/Console/CommandRunner.php, line 342
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 164
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2019-04-09 10:57:23 Warning: Warning (512): SplFileInfo::openFile(/var/www/html/classbyte/tmp/cache/persistent/myapp_cake_core_translations_default_en__u_s): failed to open stream: Permission denied in [/var/www/html/classbyte/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 399]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 399
+Cake\Cache\Engine\FileEngine::read() - CORE/src/Cache/Engine/FileEngine.php, line 184
+Cake\I18n\TranslatorRegistry::get() - CORE/src/I18n/TranslatorRegistry.php, line 148
+Aura\Intl\TranslatorLocator::get() - ROOT/vendor/aura/intl/src/TranslatorLocator.php, line 188
+Cake\I18n\TranslatorRegistry::_getFromLoader() - CORE/src/I18n/TranslatorRegistry.php, line 272
+Cake\I18n\TranslatorRegistry::_getTranslator() - CORE/src/I18n/TranslatorRegistry.php, line 176
+Cake\I18n\TranslatorRegistry::get() - CORE/src/I18n/TranslatorRegistry.php, line 150
+Cake\I18n\I18n::getTranslator() - CORE/src/I18n/I18n.php, line 210
+__d - CORE/src/I18n/functions.php, line 88
+Cake\Validation\Validator::errors() - CORE/src/Validation/Validator.php, line 111
+Cake\ORM\Marshaller::_validate() - CORE/src/ORM/Marshaller.php, line 261
+Cake\ORM\Marshaller::merge() - CORE/src/ORM/Marshaller.php, line 570
+Cake\ORM\Table::patchEntity() - CORE/src/ORM/Table.php, line 2712
+App\Shell\UpdateCourseInstructorsShell::updateCourseInstructors() - APP/Shell/updateCourseInstructorsShell.php, line 53
+App\Shell\UpdateCourseInstructorsShell::main() - APP/Shell/updateCourseInstructorsShell.php, line 34
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 532
+Cake\Console\CommandRunner::runShell() - CORE/src/Console/CommandRunner.php, line 342
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 164
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2019-04-09 10:57:23 Warning: Warning (512): SplFileInfo::openFile(/var/www/html/classbyte/tmp/cache/persistent/myapp_cake_core_translations_default_en__u_s): failed to open stream: Permission denied in [/var/www/html/classbyte/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 399]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 399
+Cake\Cache\Engine\FileEngine::write() - CORE/src/Cache/Engine/FileEngine.php, line 134
+Cake\I18n\TranslatorRegistry::get() - CORE/src/I18n/TranslatorRegistry.php, line 151
+Aura\Intl\TranslatorLocator::get() - ROOT/vendor/aura/intl/src/TranslatorLocator.php, line 188
+Cake\I18n\TranslatorRegistry::_getFromLoader() - CORE/src/I18n/TranslatorRegistry.php, line 272
+Cake\I18n\TranslatorRegistry::_getTranslator() - CORE/src/I18n/TranslatorRegistry.php, line 176
+Cake\I18n\TranslatorRegistry::get() - CORE/src/I18n/TranslatorRegistry.php, line 150
+Cake\I18n\I18n::getTranslator() - CORE/src/I18n/I18n.php, line 210
+__d - CORE/src/I18n/functions.php, line 88
+Cake\Validation\Validator::errors() - CORE/src/Validation/Validator.php, line 111
+Cake\ORM\Marshaller::_validate() - CORE/src/ORM/Marshaller.php, line 261
+Cake\ORM\Marshaller::merge() - CORE/src/ORM/Marshaller.php, line 570
+Cake\ORM\Table::patchEntity() - CORE/src/ORM/Table.php, line 2712
+App\Shell\UpdateCourseInstructorsShell::updateCourseInstructors() - APP/Shell/updateCourseInstructorsShell.php, line 53
+App\Shell\UpdateCourseInstructorsShell::main() - APP/Shell/updateCourseInstructorsShell.php, line 34
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 532
+Cake\Console\CommandRunner::runShell() - CORE/src/Console/CommandRunner.php, line 342
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 164
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2019-04-09 10:57:23 Warning: Warning (512): SplFileInfo::openFile(/var/www/html/classbyte/tmp/cache/persistent/myapp_cake_core_translations_cake_en__u_s): failed to open stream: Permission denied in [/var/www/html/classbyte/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 399]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 399
+Cake\Cache\Engine\FileEngine::write() - CORE/src/Cache/Engine/FileEngine.php, line 134
+Cake\I18n\TranslatorRegistry::get() - CORE/src/I18n/TranslatorRegistry.php, line 151
+Cake\I18n\I18n::getTranslator() - CORE/src/I18n/I18n.php, line 210
+__d - CORE/src/I18n/functions.php, line 88
+Cake\Validation\Validator::errors() - CORE/src/Validation/Validator.php, line 111
+Cake\ORM\Marshaller::_validate() - CORE/src/ORM/Marshaller.php, line 261
+Cake\ORM\Marshaller::merge() - CORE/src/ORM/Marshaller.php, line 570
+Cake\ORM\Table::patchEntity() - CORE/src/ORM/Table.php, line 2712
+App\Shell\UpdateCourseInstructorsShell::updateCourseInstructors() - APP/Shell/updateCourseInstructorsShell.php, line 53
+App\Shell\UpdateCourseInstructorsShell::main() - APP/Shell/updateCourseInstructorsShell.php, line 34
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 532
+Cake\Console\CommandRunner::runShell() - CORE/src/Console/CommandRunner.php, line 342
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 164
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2019-04-09 10:57:23 Warning: Warning (512): SplFileInfo::openFile(/var/www/html/classbyte/tmp/cache/models/myapp_cake_model_default_instructors): failed to open stream: Permission denied in [/var/www/html/classbyte/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 399]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 399
+Cake\Cache\Engine\FileEngine::read() - CORE/src/Cache/Engine/FileEngine.php, line 184
+Cake\Cache\Cache::read() - CORE/src/Cache/Cache.php, line 362
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 57
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 555
+Josegonzalez\Upload\Model\Behavior\UploadBehavior::initialize() - ROOT/vendor/josegonzalez/cakephp-upload/src/Model/Behavior/UploadBehavior.php, line 44
+Cake\ORM\Behavior::__construct() - CORE/src/ORM/Behavior.php, line 167
+Cake\ORM\BehaviorRegistry::_create() - CORE/src/ORM/BehaviorRegistry.php, line 146
+Cake\Core\ObjectRegistry::load() - CORE/src/Core/ObjectRegistry.php, line 97
+Cake\ORM\Table::addBehavior() - CORE/src/ORM/Table.php, line 867
+App\Model\Table\InstructorsTable::initialize() - APP/Model/Table/InstructorsTable.php, line 110
+Cake\ORM\Table::__construct() - CORE/src/ORM/Table.php, line 298
+Cake\ORM\Locator\TableLocator::_create() - CORE/src/ORM/Locator/TableLocator.php, line 257
+Cake\ORM\Locator\TableLocator::get() - CORE/src/ORM/Locator/TableLocator.php, line 224
+Cake\ORM\Association::getTarget() - CORE/src/ORM/Association.php, line 427
+Cake\ORM\Association\BelongsTo::isOwningSide() - CORE/src/ORM/Association/BelongsTo.php, line 94
+Cake\ORM\Association::getBindingKey() - CORE/src/ORM/Association.php, line 544
+Cake\ORM\Rule\ExistsIn::__invoke() - CORE/src/ORM/Rule/ExistsIn.php, line 98
+Cake\Datasource\RuleInvoker::__invoke() - CORE/src/Datasource/RuleInvoker.php, line 115
+Cake\Datasource\RulesChecker::_checkRules() - CORE/src/Datasource/RulesChecker.php, line 298
+Cake\Datasource\RulesChecker::checkUpdate() - CORE/src/Datasource/RulesChecker.php, line 268
+Cake\Datasource\RulesChecker::check() - CORE/src/Datasource/RulesChecker.php, line 235
+Cake\ORM\Table::checkRules() - CORE/src/Datasource/RulesAwareTrait.php, line 66
+Cake\ORM\Table::_processSave() - CORE/src/ORM/Table.php, line 1982
+Cake\ORM\Table::Cake\ORM\{closure}() - CORE/src/ORM/Table.php, line 1921
+Cake\ORM\Table::Cake\ORM\{closure}() - CORE/src/ORM/Table.php, line 1634
+Cake\Database\Connection::transactional() - CORE/src/Database/Connection.php, line 726
+Cake\ORM\Table::_executeTransaction() - CORE/src/ORM/Table.php, line 1635
+Cake\ORM\Table::save() - CORE/src/ORM/Table.php, line 1922
+App\Shell\UpdateCourseInstructorsShell::updateCourseInstructors() - APP/Shell/updateCourseInstructorsShell.php, line 54
+App\Shell\UpdateCourseInstructorsShell::main() - APP/Shell/updateCourseInstructorsShell.php, line 34
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 532
+Cake\Console\CommandRunner::runShell() - CORE/src/Console/CommandRunner.php, line 342
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 164
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2019-04-09 10:57:23 Warning: Warning (512): SplFileInfo::openFile(/var/www/html/classbyte/tmp/cache/models/myapp_cake_model_default_instructors): failed to open stream: Permission denied in [/var/www/html/classbyte/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 399]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 399
+Cake\Cache\Engine\FileEngine::write() - CORE/src/Cache/Engine/FileEngine.php, line 134
+Cake\Cache\Cache::write() - CORE/src/Cache/Cache.php, line 281
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 66
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 555
+Josegonzalez\Upload\Model\Behavior\UploadBehavior::initialize() - ROOT/vendor/josegonzalez/cakephp-upload/src/Model/Behavior/UploadBehavior.php, line 44
+Cake\ORM\Behavior::__construct() - CORE/src/ORM/Behavior.php, line 167
+Cake\ORM\BehaviorRegistry::_create() - CORE/src/ORM/BehaviorRegistry.php, line 146
+Cake\Core\ObjectRegistry::load() - CORE/src/Core/ObjectRegistry.php, line 97
+Cake\ORM\Table::addBehavior() - CORE/src/ORM/Table.php, line 867
+App\Model\Table\InstructorsTable::initialize() - APP/Model/Table/InstructorsTable.php, line 110
+Cake\ORM\Table::__construct() - CORE/src/ORM/Table.php, line 298
+Cake\ORM\Locator\TableLocator::_create() - CORE/src/ORM/Locator/TableLocator.php, line 257
+Cake\ORM\Locator\TableLocator::get() - CORE/src/ORM/Locator/TableLocator.php, line 224
+Cake\ORM\Association::getTarget() - CORE/src/ORM/Association.php, line 427
+Cake\ORM\Association\BelongsTo::isOwningSide() - CORE/src/ORM/Association/BelongsTo.php, line 94
+Cake\ORM\Association::getBindingKey() - CORE/src/ORM/Association.php, line 544
+Cake\ORM\Rule\ExistsIn::__invoke() - CORE/src/ORM/Rule/ExistsIn.php, line 98
+Cake\Datasource\RuleInvoker::__invoke() - CORE/src/Datasource/RuleInvoker.php, line 115
+Cake\Datasource\RulesChecker::_checkRules() - CORE/src/Datasource/RulesChecker.php, line 298
+Cake\Datasource\RulesChecker::checkUpdate() - CORE/src/Datasource/RulesChecker.php, line 268
+Cake\Datasource\RulesChecker::check() - CORE/src/Datasource/RulesChecker.php, line 235
+Cake\ORM\Table::checkRules() - CORE/src/Datasource/RulesAwareTrait.php, line 66
+Cake\ORM\Table::_processSave() - CORE/src/ORM/Table.php, line 1982
+Cake\ORM\Table::Cake\ORM\{closure}() - CORE/src/ORM/Table.php, line 1921
+Cake\ORM\Table::Cake\ORM\{closure}() - CORE/src/ORM/Table.php, line 1634
+Cake\Database\Connection::transactional() - CORE/src/Database/Connection.php, line 726
+Cake\ORM\Table::_executeTransaction() - CORE/src/ORM/Table.php, line 1635
+Cake\ORM\Table::save() - CORE/src/ORM/Table.php, line 1922
+App\Shell\UpdateCourseInstructorsShell::updateCourseInstructors() - APP/Shell/updateCourseInstructorsShell.php, line 54
+App\Shell\UpdateCourseInstructorsShell::main() - APP/Shell/updateCourseInstructorsShell.php, line 34
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 532
+Cake\Console\CommandRunner::runShell() - CORE/src/Console/CommandRunner.php, line 342
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 164
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2019-04-09 10:57:23 Warning: Warning (512): _cake_model_ cache was unable to write 'default_instructors' to Cake\Cache\Engine\FileEngine cache in [/var/www/html/classbyte/vendor/cakephp/cakephp/src/Cache/Cache.php, line 290]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Cache\Cache::write() - CORE/src/Cache/Cache.php, line 290
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 66
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 555
+Josegonzalez\Upload\Model\Behavior\UploadBehavior::initialize() - ROOT/vendor/josegonzalez/cakephp-upload/src/Model/Behavior/UploadBehavior.php, line 44
+Cake\ORM\Behavior::__construct() - CORE/src/ORM/Behavior.php, line 167
+Cake\ORM\BehaviorRegistry::_create() - CORE/src/ORM/BehaviorRegistry.php, line 146
+Cake\Core\ObjectRegistry::load() - CORE/src/Core/ObjectRegistry.php, line 97
+Cake\ORM\Table::addBehavior() - CORE/src/ORM/Table.php, line 867
+App\Model\Table\InstructorsTable::initialize() - APP/Model/Table/InstructorsTable.php, line 110
+Cake\ORM\Table::__construct() - CORE/src/ORM/Table.php, line 298
+Cake\ORM\Locator\TableLocator::_create() - CORE/src/ORM/Locator/TableLocator.php, line 257
+Cake\ORM\Locator\TableLocator::get() - CORE/src/ORM/Locator/TableLocator.php, line 224
+Cake\ORM\Association::getTarget() - CORE/src/ORM/Association.php, line 427
+Cake\ORM\Association\BelongsTo::isOwningSide() - CORE/src/ORM/Association/BelongsTo.php, line 94
+Cake\ORM\Association::getBindingKey() - CORE/src/ORM/Association.php, line 544
+Cake\ORM\Rule\ExistsIn::__invoke() - CORE/src/ORM/Rule/ExistsIn.php, line 98
+Cake\Datasource\RuleInvoker::__invoke() - CORE/src/Datasource/RuleInvoker.php, line 115
+Cake\Datasource\RulesChecker::_checkRules() - CORE/src/Datasource/RulesChecker.php, line 298
+Cake\Datasource\RulesChecker::checkUpdate() - CORE/src/Datasource/RulesChecker.php, line 268
+Cake\Datasource\RulesChecker::check() - CORE/src/Datasource/RulesChecker.php, line 235
+Cake\ORM\Table::checkRules() - CORE/src/Datasource/RulesAwareTrait.php, line 66
+Cake\ORM\Table::_processSave() - CORE/src/ORM/Table.php, line 1982
+Cake\ORM\Table::Cake\ORM\{closure}() - CORE/src/ORM/Table.php, line 1921
+Cake\ORM\Table::Cake\ORM\{closure}() - CORE/src/ORM/Table.php, line 1634
+Cake\Database\Connection::transactional() - CORE/src/Database/Connection.php, line 726
+Cake\ORM\Table::_executeTransaction() - CORE/src/ORM/Table.php, line 1635
+Cake\ORM\Table::save() - CORE/src/ORM/Table.php, line 1922
+App\Shell\UpdateCourseInstructorsShell::updateCourseInstructors() - APP/Shell/updateCourseInstructorsShell.php, line 54
+App\Shell\UpdateCourseInstructorsShell::main() - APP/Shell/updateCourseInstructorsShell.php, line 34
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 532
+Cake\Console\CommandRunner::runShell() - CORE/src/Console/CommandRunner.php, line 342
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 164
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2019-04-09 11:00:22 Warning: Warning (512): SplFileInfo::openFile(/var/www/html/classbyte/tmp/cache/models/myapp_cake_model_default_courses): failed to open stream: Permission denied in [/var/www/html/classbyte/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 399]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 399
+Cake\Cache\Engine\FileEngine::read() - CORE/src/Cache/Engine/FileEngine.php, line 184
+Cake\Cache\Cache::read() - CORE/src/Cache/Cache.php, line 362
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 57
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 555
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 271
+Cake\ORM\Query::__construct() - CORE/src/ORM/Query.php, line 169
+Cake\ORM\Table::query() - CORE/src/ORM/Table.php, line 1765
+Cake\ORM\Table::find() - CORE/src/ORM/Table.php, line 1357
+App\Shell\UpdateCourseInstructorsShell::updateCourseInstructors() - APP/Shell/updateCourseInstructorsShell.php, line 41
+App\Shell\UpdateCourseInstructorsShell::main() - APP/Shell/updateCourseInstructorsShell.php, line 34
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 532
+Cake\Console\CommandRunner::runShell() - CORE/src/Console/CommandRunner.php, line 342
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 164
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2019-04-09 11:00:22 Warning: Warning (512): SplFileInfo::openFile(/var/www/html/classbyte/tmp/cache/models/myapp_cake_model_default_courses): failed to open stream: Permission denied in [/var/www/html/classbyte/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 399]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 399
+Cake\Cache\Engine\FileEngine::write() - CORE/src/Cache/Engine/FileEngine.php, line 134
+Cake\Cache\Cache::write() - CORE/src/Cache/Cache.php, line 281
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 66
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 555
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 271
+Cake\ORM\Query::__construct() - CORE/src/ORM/Query.php, line 169
+Cake\ORM\Table::query() - CORE/src/ORM/Table.php, line 1765
+Cake\ORM\Table::find() - CORE/src/ORM/Table.php, line 1357
+App\Shell\UpdateCourseInstructorsShell::updateCourseInstructors() - APP/Shell/updateCourseInstructorsShell.php, line 41
+App\Shell\UpdateCourseInstructorsShell::main() - APP/Shell/updateCourseInstructorsShell.php, line 34
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 532
+Cake\Console\CommandRunner::runShell() - CORE/src/Console/CommandRunner.php, line 342
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 164
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2019-04-09 11:00:22 Warning: Warning (512): _cake_model_ cache was unable to write 'default_courses' to Cake\Cache\Engine\FileEngine cache in [/var/www/html/classbyte/vendor/cakephp/cakephp/src/Cache/Cache.php, line 290]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Cache\Cache::write() - CORE/src/Cache/Cache.php, line 290
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 66
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 555
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 271
+Cake\ORM\Query::__construct() - CORE/src/ORM/Query.php, line 169
+Cake\ORM\Table::query() - CORE/src/ORM/Table.php, line 1765
+Cake\ORM\Table::find() - CORE/src/ORM/Table.php, line 1357
+App\Shell\UpdateCourseInstructorsShell::updateCourseInstructors() - APP/Shell/updateCourseInstructorsShell.php, line 41
+App\Shell\UpdateCourseInstructorsShell::main() - APP/Shell/updateCourseInstructorsShell.php, line 34
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 532
+Cake\Console\CommandRunner::runShell() - CORE/src/Console/CommandRunner.php, line 342
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 164
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2019-04-09 11:00:22 Warning: Warning (512): SplFileInfo::openFile(/var/www/html/classbyte/tmp/cache/models/myapp_cake_model_default_course_instructors): failed to open stream: Permission denied in [/var/www/html/classbyte/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 399]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 399
+Cake\Cache\Engine\FileEngine::read() - CORE/src/Cache/Engine/FileEngine.php, line 184
+Cake\Cache\Cache::read() - CORE/src/Cache/Cache.php, line 362
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 57
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 555
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 271
+Cake\ORM\Query::_addAssociationsToTypeMap() - CORE/src/ORM/Query.php, line 526
+Cake\ORM\Query::contain() - CORE/src/ORM/Query.php, line 479
+App\Shell\UpdateCourseInstructorsShell::updateCourseInstructors() - APP/Shell/updateCourseInstructorsShell.php, line 41
+App\Shell\UpdateCourseInstructorsShell::main() - APP/Shell/updateCourseInstructorsShell.php, line 34
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 532
+Cake\Console\CommandRunner::runShell() - CORE/src/Console/CommandRunner.php, line 342
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 164
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2019-04-09 11:00:22 Warning: Warning (512): SplFileInfo::openFile(/var/www/html/classbyte/tmp/cache/models/myapp_cake_model_default_course_instructors): failed to open stream: Permission denied in [/var/www/html/classbyte/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 399]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 399
+Cake\Cache\Engine\FileEngine::write() - CORE/src/Cache/Engine/FileEngine.php, line 134
+Cake\Cache\Cache::write() - CORE/src/Cache/Cache.php, line 281
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 66
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 555
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 271
+Cake\ORM\Query::_addAssociationsToTypeMap() - CORE/src/ORM/Query.php, line 526
+Cake\ORM\Query::contain() - CORE/src/ORM/Query.php, line 479
+App\Shell\UpdateCourseInstructorsShell::updateCourseInstructors() - APP/Shell/updateCourseInstructorsShell.php, line 41
+App\Shell\UpdateCourseInstructorsShell::main() - APP/Shell/updateCourseInstructorsShell.php, line 34
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 532
+Cake\Console\CommandRunner::runShell() - CORE/src/Console/CommandRunner.php, line 342
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 164
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2019-04-09 11:00:22 Warning: Warning (512): _cake_model_ cache was unable to write 'default_course_instructors' to Cake\Cache\Engine\FileEngine cache in [/var/www/html/classbyte/vendor/cakephp/cakephp/src/Cache/Cache.php, line 290]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Cache\Cache::write() - CORE/src/Cache/Cache.php, line 290
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 66
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 555
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 271
+Cake\ORM\Query::_addAssociationsToTypeMap() - CORE/src/ORM/Query.php, line 526
+Cake\ORM\Query::contain() - CORE/src/ORM/Query.php, line 479
+App\Shell\UpdateCourseInstructorsShell::updateCourseInstructors() - APP/Shell/updateCourseInstructorsShell.php, line 41
+App\Shell\UpdateCourseInstructorsShell::main() - APP/Shell/updateCourseInstructorsShell.php, line 34
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 532
+Cake\Console\CommandRunner::runShell() - CORE/src/Console/CommandRunner.php, line 342
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 164
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2019-04-09 11:00:22 Warning: Warning (512): SplFileInfo::openFile(/var/www/html/classbyte/tmp/cache/persistent/myapp_cake_core_translations_cake_en__u_s): failed to open stream: Permission denied in [/var/www/html/classbyte/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 399]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 399
+Cake\Cache\Engine\FileEngine::read() - CORE/src/Cache/Engine/FileEngine.php, line 184
+Cake\I18n\TranslatorRegistry::get() - CORE/src/I18n/TranslatorRegistry.php, line 148
+Cake\I18n\I18n::getTranslator() - CORE/src/I18n/I18n.php, line 210
+__d - CORE/src/I18n/functions.php, line 88
+Cake\Validation\Validator::errors() - CORE/src/Validation/Validator.php, line 111
+Cake\ORM\Marshaller::_validate() - CORE/src/ORM/Marshaller.php, line 261
+Cake\ORM\Marshaller::merge() - CORE/src/ORM/Marshaller.php, line 570
+Cake\ORM\Table::patchEntity() - CORE/src/ORM/Table.php, line 2712
+App\Shell\UpdateCourseInstructorsShell::updateCourseInstructors() - APP/Shell/updateCourseInstructorsShell.php, line 53
+App\Shell\UpdateCourseInstructorsShell::main() - APP/Shell/updateCourseInstructorsShell.php, line 34
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 532
+Cake\Console\CommandRunner::runShell() - CORE/src/Console/CommandRunner.php, line 342
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 164
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2019-04-09 11:00:22 Warning: Warning (512): SplFileInfo::openFile(/var/www/html/classbyte/tmp/cache/persistent/myapp_cake_core_translations_default_en__u_s): failed to open stream: Permission denied in [/var/www/html/classbyte/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 399]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 399
+Cake\Cache\Engine\FileEngine::read() - CORE/src/Cache/Engine/FileEngine.php, line 184
+Cake\I18n\TranslatorRegistry::get() - CORE/src/I18n/TranslatorRegistry.php, line 148
+Aura\Intl\TranslatorLocator::get() - ROOT/vendor/aura/intl/src/TranslatorLocator.php, line 188
+Cake\I18n\TranslatorRegistry::_getFromLoader() - CORE/src/I18n/TranslatorRegistry.php, line 272
+Cake\I18n\TranslatorRegistry::_getTranslator() - CORE/src/I18n/TranslatorRegistry.php, line 176
+Cake\I18n\TranslatorRegistry::get() - CORE/src/I18n/TranslatorRegistry.php, line 150
+Cake\I18n\I18n::getTranslator() - CORE/src/I18n/I18n.php, line 210
+__d - CORE/src/I18n/functions.php, line 88
+Cake\Validation\Validator::errors() - CORE/src/Validation/Validator.php, line 111
+Cake\ORM\Marshaller::_validate() - CORE/src/ORM/Marshaller.php, line 261
+Cake\ORM\Marshaller::merge() - CORE/src/ORM/Marshaller.php, line 570
+Cake\ORM\Table::patchEntity() - CORE/src/ORM/Table.php, line 2712
+App\Shell\UpdateCourseInstructorsShell::updateCourseInstructors() - APP/Shell/updateCourseInstructorsShell.php, line 53
+App\Shell\UpdateCourseInstructorsShell::main() - APP/Shell/updateCourseInstructorsShell.php, line 34
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 532
+Cake\Console\CommandRunner::runShell() - CORE/src/Console/CommandRunner.php, line 342
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 164
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2019-04-09 11:00:22 Warning: Warning (512): SplFileInfo::openFile(/var/www/html/classbyte/tmp/cache/persistent/myapp_cake_core_translations_default_en__u_s): failed to open stream: Permission denied in [/var/www/html/classbyte/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 399]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 399
+Cake\Cache\Engine\FileEngine::write() - CORE/src/Cache/Engine/FileEngine.php, line 134
+Cake\I18n\TranslatorRegistry::get() - CORE/src/I18n/TranslatorRegistry.php, line 151
+Aura\Intl\TranslatorLocator::get() - ROOT/vendor/aura/intl/src/TranslatorLocator.php, line 188
+Cake\I18n\TranslatorRegistry::_getFromLoader() - CORE/src/I18n/TranslatorRegistry.php, line 272
+Cake\I18n\TranslatorRegistry::_getTranslator() - CORE/src/I18n/TranslatorRegistry.php, line 176
+Cake\I18n\TranslatorRegistry::get() - CORE/src/I18n/TranslatorRegistry.php, line 150
+Cake\I18n\I18n::getTranslator() - CORE/src/I18n/I18n.php, line 210
+__d - CORE/src/I18n/functions.php, line 88
+Cake\Validation\Validator::errors() - CORE/src/Validation/Validator.php, line 111
+Cake\ORM\Marshaller::_validate() - CORE/src/ORM/Marshaller.php, line 261
+Cake\ORM\Marshaller::merge() - CORE/src/ORM/Marshaller.php, line 570
+Cake\ORM\Table::patchEntity() - CORE/src/ORM/Table.php, line 2712
+App\Shell\UpdateCourseInstructorsShell::updateCourseInstructors() - APP/Shell/updateCourseInstructorsShell.php, line 53
+App\Shell\UpdateCourseInstructorsShell::main() - APP/Shell/updateCourseInstructorsShell.php, line 34
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 532
+Cake\Console\CommandRunner::runShell() - CORE/src/Console/CommandRunner.php, line 342
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 164
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2019-04-09 11:00:22 Warning: Warning (512): SplFileInfo::openFile(/var/www/html/classbyte/tmp/cache/persistent/myapp_cake_core_translations_cake_en__u_s): failed to open stream: Permission denied in [/var/www/html/classbyte/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 399]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 399
+Cake\Cache\Engine\FileEngine::write() - CORE/src/Cache/Engine/FileEngine.php, line 134
+Cake\I18n\TranslatorRegistry::get() - CORE/src/I18n/TranslatorRegistry.php, line 151
+Cake\I18n\I18n::getTranslator() - CORE/src/I18n/I18n.php, line 210
+__d - CORE/src/I18n/functions.php, line 88
+Cake\Validation\Validator::errors() - CORE/src/Validation/Validator.php, line 111
+Cake\ORM\Marshaller::_validate() - CORE/src/ORM/Marshaller.php, line 261
+Cake\ORM\Marshaller::merge() - CORE/src/ORM/Marshaller.php, line 570
+Cake\ORM\Table::patchEntity() - CORE/src/ORM/Table.php, line 2712
+App\Shell\UpdateCourseInstructorsShell::updateCourseInstructors() - APP/Shell/updateCourseInstructorsShell.php, line 53
+App\Shell\UpdateCourseInstructorsShell::main() - APP/Shell/updateCourseInstructorsShell.php, line 34
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 532
+Cake\Console\CommandRunner::runShell() - CORE/src/Console/CommandRunner.php, line 342
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 164
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2019-04-09 11:00:22 Warning: Warning (512): SplFileInfo::openFile(/var/www/html/classbyte/tmp/cache/models/myapp_cake_model_default_instructors): failed to open stream: Permission denied in [/var/www/html/classbyte/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 399]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 399
+Cake\Cache\Engine\FileEngine::read() - CORE/src/Cache/Engine/FileEngine.php, line 184
+Cake\Cache\Cache::read() - CORE/src/Cache/Cache.php, line 362
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 57
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 555
+Josegonzalez\Upload\Model\Behavior\UploadBehavior::initialize() - ROOT/vendor/josegonzalez/cakephp-upload/src/Model/Behavior/UploadBehavior.php, line 44
+Cake\ORM\Behavior::__construct() - CORE/src/ORM/Behavior.php, line 167
+Cake\ORM\BehaviorRegistry::_create() - CORE/src/ORM/BehaviorRegistry.php, line 146
+Cake\Core\ObjectRegistry::load() - CORE/src/Core/ObjectRegistry.php, line 97
+Cake\ORM\Table::addBehavior() - CORE/src/ORM/Table.php, line 867
+App\Model\Table\InstructorsTable::initialize() - APP/Model/Table/InstructorsTable.php, line 110
+Cake\ORM\Table::__construct() - CORE/src/ORM/Table.php, line 298
+Cake\ORM\Locator\TableLocator::_create() - CORE/src/ORM/Locator/TableLocator.php, line 257
+Cake\ORM\Locator\TableLocator::get() - CORE/src/ORM/Locator/TableLocator.php, line 224
+Cake\ORM\Association::getTarget() - CORE/src/ORM/Association.php, line 427
+Cake\ORM\Association\BelongsTo::isOwningSide() - CORE/src/ORM/Association/BelongsTo.php, line 94
+Cake\ORM\Association::getBindingKey() - CORE/src/ORM/Association.php, line 544
+Cake\ORM\Rule\ExistsIn::__invoke() - CORE/src/ORM/Rule/ExistsIn.php, line 98
+Cake\Datasource\RuleInvoker::__invoke() - CORE/src/Datasource/RuleInvoker.php, line 115
+Cake\Datasource\RulesChecker::_checkRules() - CORE/src/Datasource/RulesChecker.php, line 298
+Cake\Datasource\RulesChecker::checkUpdate() - CORE/src/Datasource/RulesChecker.php, line 268
+Cake\Datasource\RulesChecker::check() - CORE/src/Datasource/RulesChecker.php, line 235
+Cake\ORM\Table::checkRules() - CORE/src/Datasource/RulesAwareTrait.php, line 66
+Cake\ORM\Table::_processSave() - CORE/src/ORM/Table.php, line 1982
+Cake\ORM\Table::Cake\ORM\{closure}() - CORE/src/ORM/Table.php, line 1921
+Cake\ORM\Table::Cake\ORM\{closure}() - CORE/src/ORM/Table.php, line 1634
+Cake\Database\Connection::transactional() - CORE/src/Database/Connection.php, line 726
+Cake\ORM\Table::_executeTransaction() - CORE/src/ORM/Table.php, line 1635
+Cake\ORM\Table::save() - CORE/src/ORM/Table.php, line 1922
+App\Shell\UpdateCourseInstructorsShell::updateCourseInstructors() - APP/Shell/updateCourseInstructorsShell.php, line 54
+App\Shell\UpdateCourseInstructorsShell::main() - APP/Shell/updateCourseInstructorsShell.php, line 34
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 532
+Cake\Console\CommandRunner::runShell() - CORE/src/Console/CommandRunner.php, line 342
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 164
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2019-04-09 11:00:22 Warning: Warning (512): SplFileInfo::openFile(/var/www/html/classbyte/tmp/cache/models/myapp_cake_model_default_instructors): failed to open stream: Permission denied in [/var/www/html/classbyte/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 399]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 399
+Cake\Cache\Engine\FileEngine::write() - CORE/src/Cache/Engine/FileEngine.php, line 134
+Cake\Cache\Cache::write() - CORE/src/Cache/Cache.php, line 281
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 66
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 555
+Josegonzalez\Upload\Model\Behavior\UploadBehavior::initialize() - ROOT/vendor/josegonzalez/cakephp-upload/src/Model/Behavior/UploadBehavior.php, line 44
+Cake\ORM\Behavior::__construct() - CORE/src/ORM/Behavior.php, line 167
+Cake\ORM\BehaviorRegistry::_create() - CORE/src/ORM/BehaviorRegistry.php, line 146
+Cake\Core\ObjectRegistry::load() - CORE/src/Core/ObjectRegistry.php, line 97
+Cake\ORM\Table::addBehavior() - CORE/src/ORM/Table.php, line 867
+App\Model\Table\InstructorsTable::initialize() - APP/Model/Table/InstructorsTable.php, line 110
+Cake\ORM\Table::__construct() - CORE/src/ORM/Table.php, line 298
+Cake\ORM\Locator\TableLocator::_create() - CORE/src/ORM/Locator/TableLocator.php, line 257
+Cake\ORM\Locator\TableLocator::get() - CORE/src/ORM/Locator/TableLocator.php, line 224
+Cake\ORM\Association::getTarget() - CORE/src/ORM/Association.php, line 427
+Cake\ORM\Association\BelongsTo::isOwningSide() - CORE/src/ORM/Association/BelongsTo.php, line 94
+Cake\ORM\Association::getBindingKey() - CORE/src/ORM/Association.php, line 544
+Cake\ORM\Rule\ExistsIn::__invoke() - CORE/src/ORM/Rule/ExistsIn.php, line 98
+Cake\Datasource\RuleInvoker::__invoke() - CORE/src/Datasource/RuleInvoker.php, line 115
+Cake\Datasource\RulesChecker::_checkRules() - CORE/src/Datasource/RulesChecker.php, line 298
+Cake\Datasource\RulesChecker::checkUpdate() - CORE/src/Datasource/RulesChecker.php, line 268
+Cake\Datasource\RulesChecker::check() - CORE/src/Datasource/RulesChecker.php, line 235
+Cake\ORM\Table::checkRules() - CORE/src/Datasource/RulesAwareTrait.php, line 66
+Cake\ORM\Table::_processSave() - CORE/src/ORM/Table.php, line 1982
+Cake\ORM\Table::Cake\ORM\{closure}() - CORE/src/ORM/Table.php, line 1921
+Cake\ORM\Table::Cake\ORM\{closure}() - CORE/src/ORM/Table.php, line 1634
+Cake\Database\Connection::transactional() - CORE/src/Database/Connection.php, line 726
+Cake\ORM\Table::_executeTransaction() - CORE/src/ORM/Table.php, line 1635
+Cake\ORM\Table::save() - CORE/src/ORM/Table.php, line 1922
+App\Shell\UpdateCourseInstructorsShell::updateCourseInstructors() - APP/Shell/updateCourseInstructorsShell.php, line 54
+App\Shell\UpdateCourseInstructorsShell::main() - APP/Shell/updateCourseInstructorsShell.php, line 34
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 532
+Cake\Console\CommandRunner::runShell() - CORE/src/Console/CommandRunner.php, line 342
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 164
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2019-04-09 11:00:22 Warning: Warning (512): _cake_model_ cache was unable to write 'default_instructors' to Cake\Cache\Engine\FileEngine cache in [/var/www/html/classbyte/vendor/cakephp/cakephp/src/Cache/Cache.php, line 290]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Cache\Cache::write() - CORE/src/Cache/Cache.php, line 290
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 66
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 555
+Josegonzalez\Upload\Model\Behavior\UploadBehavior::initialize() - ROOT/vendor/josegonzalez/cakephp-upload/src/Model/Behavior/UploadBehavior.php, line 44
+Cake\ORM\Behavior::__construct() - CORE/src/ORM/Behavior.php, line 167
+Cake\ORM\BehaviorRegistry::_create() - CORE/src/ORM/BehaviorRegistry.php, line 146
+Cake\Core\ObjectRegistry::load() - CORE/src/Core/ObjectRegistry.php, line 97
+Cake\ORM\Table::addBehavior() - CORE/src/ORM/Table.php, line 867
+App\Model\Table\InstructorsTable::initialize() - APP/Model/Table/InstructorsTable.php, line 110
+Cake\ORM\Table::__construct() - CORE/src/ORM/Table.php, line 298
+Cake\ORM\Locator\TableLocator::_create() - CORE/src/ORM/Locator/TableLocator.php, line 257
+Cake\ORM\Locator\TableLocator::get() - CORE/src/ORM/Locator/TableLocator.php, line 224
+Cake\ORM\Association::getTarget() - CORE/src/ORM/Association.php, line 427
+Cake\ORM\Association\BelongsTo::isOwningSide() - CORE/src/ORM/Association/BelongsTo.php, line 94
+Cake\ORM\Association::getBindingKey() - CORE/src/ORM/Association.php, line 544
+Cake\ORM\Rule\ExistsIn::__invoke() - CORE/src/ORM/Rule/ExistsIn.php, line 98
+Cake\Datasource\RuleInvoker::__invoke() - CORE/src/Datasource/RuleInvoker.php, line 115
+Cake\Datasource\RulesChecker::_checkRules() - CORE/src/Datasource/RulesChecker.php, line 298
+Cake\Datasource\RulesChecker::checkUpdate() - CORE/src/Datasource/RulesChecker.php, line 268
+Cake\Datasource\RulesChecker::check() - CORE/src/Datasource/RulesChecker.php, line 235
+Cake\ORM\Table::checkRules() - CORE/src/Datasource/RulesAwareTrait.php, line 66
+Cake\ORM\Table::_processSave() - CORE/src/ORM/Table.php, line 1982
+Cake\ORM\Table::Cake\ORM\{closure}() - CORE/src/ORM/Table.php, line 1921
+Cake\ORM\Table::Cake\ORM\{closure}() - CORE/src/ORM/Table.php, line 1634
+Cake\Database\Connection::transactional() - CORE/src/Database/Connection.php, line 726
+Cake\ORM\Table::_executeTransaction() - CORE/src/ORM/Table.php, line 1635
+Cake\ORM\Table::save() - CORE/src/ORM/Table.php, line 1922
+App\Shell\UpdateCourseInstructorsShell::updateCourseInstructors() - APP/Shell/updateCourseInstructorsShell.php, line 54
+App\Shell\UpdateCourseInstructorsShell::main() - APP/Shell/updateCourseInstructorsShell.php, line 34
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 532
+Cake\Console\CommandRunner::runShell() - CORE/src/Console/CommandRunner.php, line 342
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 164
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2019-04-09 11:01:23 Warning: Warning (512): SplFileInfo::openFile(/var/www/html/classbyte/tmp/cache/models/myapp_cake_model_default_courses): failed to open stream: Permission denied in [/var/www/html/classbyte/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 399]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 399
+Cake\Cache\Engine\FileEngine::read() - CORE/src/Cache/Engine/FileEngine.php, line 184
+Cake\Cache\Cache::read() - CORE/src/Cache/Cache.php, line 362
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 57
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 555
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 271
+Cake\ORM\Query::__construct() - CORE/src/ORM/Query.php, line 169
+Cake\ORM\Table::query() - CORE/src/ORM/Table.php, line 1765
+Cake\ORM\Table::find() - CORE/src/ORM/Table.php, line 1357
+App\Shell\UpdateCourseInstructorsShell::updateCourseInstructors() - APP/Shell/updateCourseInstructorsShell.php, line 41
+App\Shell\UpdateCourseInstructorsShell::main() - APP/Shell/updateCourseInstructorsShell.php, line 34
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 532
+Cake\Console\CommandRunner::runShell() - CORE/src/Console/CommandRunner.php, line 342
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 164
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2019-04-09 11:01:23 Warning: Warning (512): SplFileInfo::openFile(/var/www/html/classbyte/tmp/cache/models/myapp_cake_model_default_courses): failed to open stream: Permission denied in [/var/www/html/classbyte/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 399]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 399
+Cake\Cache\Engine\FileEngine::write() - CORE/src/Cache/Engine/FileEngine.php, line 134
+Cake\Cache\Cache::write() - CORE/src/Cache/Cache.php, line 281
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 66
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 555
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 271
+Cake\ORM\Query::__construct() - CORE/src/ORM/Query.php, line 169
+Cake\ORM\Table::query() - CORE/src/ORM/Table.php, line 1765
+Cake\ORM\Table::find() - CORE/src/ORM/Table.php, line 1357
+App\Shell\UpdateCourseInstructorsShell::updateCourseInstructors() - APP/Shell/updateCourseInstructorsShell.php, line 41
+App\Shell\UpdateCourseInstructorsShell::main() - APP/Shell/updateCourseInstructorsShell.php, line 34
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 532
+Cake\Console\CommandRunner::runShell() - CORE/src/Console/CommandRunner.php, line 342
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 164
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2019-04-09 11:01:23 Warning: Warning (512): _cake_model_ cache was unable to write 'default_courses' to Cake\Cache\Engine\FileEngine cache in [/var/www/html/classbyte/vendor/cakephp/cakephp/src/Cache/Cache.php, line 290]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Cache\Cache::write() - CORE/src/Cache/Cache.php, line 290
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 66
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 555
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 271
+Cake\ORM\Query::__construct() - CORE/src/ORM/Query.php, line 169
+Cake\ORM\Table::query() - CORE/src/ORM/Table.php, line 1765
+Cake\ORM\Table::find() - CORE/src/ORM/Table.php, line 1357
+App\Shell\UpdateCourseInstructorsShell::updateCourseInstructors() - APP/Shell/updateCourseInstructorsShell.php, line 41
+App\Shell\UpdateCourseInstructorsShell::main() - APP/Shell/updateCourseInstructorsShell.php, line 34
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 532
+Cake\Console\CommandRunner::runShell() - CORE/src/Console/CommandRunner.php, line 342
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 164
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2019-04-09 11:01:23 Warning: Warning (512): SplFileInfo::openFile(/var/www/html/classbyte/tmp/cache/models/myapp_cake_model_default_course_instructors): failed to open stream: Permission denied in [/var/www/html/classbyte/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 399]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 399
+Cake\Cache\Engine\FileEngine::read() - CORE/src/Cache/Engine/FileEngine.php, line 184
+Cake\Cache\Cache::read() - CORE/src/Cache/Cache.php, line 362
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 57
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 555
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 271
+Cake\ORM\Query::_addAssociationsToTypeMap() - CORE/src/ORM/Query.php, line 526
+Cake\ORM\Query::contain() - CORE/src/ORM/Query.php, line 479
+App\Shell\UpdateCourseInstructorsShell::updateCourseInstructors() - APP/Shell/updateCourseInstructorsShell.php, line 41
+App\Shell\UpdateCourseInstructorsShell::main() - APP/Shell/updateCourseInstructorsShell.php, line 34
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 532
+Cake\Console\CommandRunner::runShell() - CORE/src/Console/CommandRunner.php, line 342
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 164
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2019-04-09 11:01:23 Warning: Warning (512): SplFileInfo::openFile(/var/www/html/classbyte/tmp/cache/models/myapp_cake_model_default_course_instructors): failed to open stream: Permission denied in [/var/www/html/classbyte/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 399]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 399
+Cake\Cache\Engine\FileEngine::write() - CORE/src/Cache/Engine/FileEngine.php, line 134
+Cake\Cache\Cache::write() - CORE/src/Cache/Cache.php, line 281
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 66
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 555
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 271
+Cake\ORM\Query::_addAssociationsToTypeMap() - CORE/src/ORM/Query.php, line 526
+Cake\ORM\Query::contain() - CORE/src/ORM/Query.php, line 479
+App\Shell\UpdateCourseInstructorsShell::updateCourseInstructors() - APP/Shell/updateCourseInstructorsShell.php, line 41
+App\Shell\UpdateCourseInstructorsShell::main() - APP/Shell/updateCourseInstructorsShell.php, line 34
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 532
+Cake\Console\CommandRunner::runShell() - CORE/src/Console/CommandRunner.php, line 342
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 164
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2019-04-09 11:01:23 Warning: Warning (512): _cake_model_ cache was unable to write 'default_course_instructors' to Cake\Cache\Engine\FileEngine cache in [/var/www/html/classbyte/vendor/cakephp/cakephp/src/Cache/Cache.php, line 290]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Cache\Cache::write() - CORE/src/Cache/Cache.php, line 290
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 66
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 555
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 271
+Cake\ORM\Query::_addAssociationsToTypeMap() - CORE/src/ORM/Query.php, line 526
+Cake\ORM\Query::contain() - CORE/src/ORM/Query.php, line 479
+App\Shell\UpdateCourseInstructorsShell::updateCourseInstructors() - APP/Shell/updateCourseInstructorsShell.php, line 41
+App\Shell\UpdateCourseInstructorsShell::main() - APP/Shell/updateCourseInstructorsShell.php, line 34
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 532
+Cake\Console\CommandRunner::runShell() - CORE/src/Console/CommandRunner.php, line 342
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 164
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2019-04-09 11:01:23 Warning: Warning (512): SplFileInfo::openFile(/var/www/html/classbyte/tmp/cache/persistent/myapp_cake_core_translations_cake_en__u_s): failed to open stream: Permission denied in [/var/www/html/classbyte/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 399]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 399
+Cake\Cache\Engine\FileEngine::read() - CORE/src/Cache/Engine/FileEngine.php, line 184
+Cake\I18n\TranslatorRegistry::get() - CORE/src/I18n/TranslatorRegistry.php, line 148
+Cake\I18n\I18n::getTranslator() - CORE/src/I18n/I18n.php, line 210
+__d - CORE/src/I18n/functions.php, line 88
+Cake\Validation\Validator::errors() - CORE/src/Validation/Validator.php, line 111
+Cake\ORM\Marshaller::_validate() - CORE/src/ORM/Marshaller.php, line 261
+Cake\ORM\Marshaller::merge() - CORE/src/ORM/Marshaller.php, line 570
+Cake\ORM\Table::patchEntity() - CORE/src/ORM/Table.php, line 2712
+App\Shell\UpdateCourseInstructorsShell::updateCourseInstructors() - APP/Shell/updateCourseInstructorsShell.php, line 53
+App\Shell\UpdateCourseInstructorsShell::main() - APP/Shell/updateCourseInstructorsShell.php, line 34
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 532
+Cake\Console\CommandRunner::runShell() - CORE/src/Console/CommandRunner.php, line 342
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 164
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2019-04-09 11:01:23 Warning: Warning (512): SplFileInfo::openFile(/var/www/html/classbyte/tmp/cache/persistent/myapp_cake_core_translations_default_en__u_s): failed to open stream: Permission denied in [/var/www/html/classbyte/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 399]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 399
+Cake\Cache\Engine\FileEngine::read() - CORE/src/Cache/Engine/FileEngine.php, line 184
+Cake\I18n\TranslatorRegistry::get() - CORE/src/I18n/TranslatorRegistry.php, line 148
+Aura\Intl\TranslatorLocator::get() - ROOT/vendor/aura/intl/src/TranslatorLocator.php, line 188
+Cake\I18n\TranslatorRegistry::_getFromLoader() - CORE/src/I18n/TranslatorRegistry.php, line 272
+Cake\I18n\TranslatorRegistry::_getTranslator() - CORE/src/I18n/TranslatorRegistry.php, line 176
+Cake\I18n\TranslatorRegistry::get() - CORE/src/I18n/TranslatorRegistry.php, line 150
+Cake\I18n\I18n::getTranslator() - CORE/src/I18n/I18n.php, line 210
+__d - CORE/src/I18n/functions.php, line 88
+Cake\Validation\Validator::errors() - CORE/src/Validation/Validator.php, line 111
+Cake\ORM\Marshaller::_validate() - CORE/src/ORM/Marshaller.php, line 261
+Cake\ORM\Marshaller::merge() - CORE/src/ORM/Marshaller.php, line 570
+Cake\ORM\Table::patchEntity() - CORE/src/ORM/Table.php, line 2712
+App\Shell\UpdateCourseInstructorsShell::updateCourseInstructors() - APP/Shell/updateCourseInstructorsShell.php, line 53
+App\Shell\UpdateCourseInstructorsShell::main() - APP/Shell/updateCourseInstructorsShell.php, line 34
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 532
+Cake\Console\CommandRunner::runShell() - CORE/src/Console/CommandRunner.php, line 342
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 164
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2019-04-09 11:01:23 Warning: Warning (512): SplFileInfo::openFile(/var/www/html/classbyte/tmp/cache/persistent/myapp_cake_core_translations_default_en__u_s): failed to open stream: Permission denied in [/var/www/html/classbyte/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 399]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 399
+Cake\Cache\Engine\FileEngine::write() - CORE/src/Cache/Engine/FileEngine.php, line 134
+Cake\I18n\TranslatorRegistry::get() - CORE/src/I18n/TranslatorRegistry.php, line 151
+Aura\Intl\TranslatorLocator::get() - ROOT/vendor/aura/intl/src/TranslatorLocator.php, line 188
+Cake\I18n\TranslatorRegistry::_getFromLoader() - CORE/src/I18n/TranslatorRegistry.php, line 272
+Cake\I18n\TranslatorRegistry::_getTranslator() - CORE/src/I18n/TranslatorRegistry.php, line 176
+Cake\I18n\TranslatorRegistry::get() - CORE/src/I18n/TranslatorRegistry.php, line 150
+Cake\I18n\I18n::getTranslator() - CORE/src/I18n/I18n.php, line 210
+__d - CORE/src/I18n/functions.php, line 88
+Cake\Validation\Validator::errors() - CORE/src/Validation/Validator.php, line 111
+Cake\ORM\Marshaller::_validate() - CORE/src/ORM/Marshaller.php, line 261
+Cake\ORM\Marshaller::merge() - CORE/src/ORM/Marshaller.php, line 570
+Cake\ORM\Table::patchEntity() - CORE/src/ORM/Table.php, line 2712
+App\Shell\UpdateCourseInstructorsShell::updateCourseInstructors() - APP/Shell/updateCourseInstructorsShell.php, line 53
+App\Shell\UpdateCourseInstructorsShell::main() - APP/Shell/updateCourseInstructorsShell.php, line 34
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 532
+Cake\Console\CommandRunner::runShell() - CORE/src/Console/CommandRunner.php, line 342
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 164
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2019-04-09 11:01:23 Warning: Warning (512): SplFileInfo::openFile(/var/www/html/classbyte/tmp/cache/persistent/myapp_cake_core_translations_cake_en__u_s): failed to open stream: Permission denied in [/var/www/html/classbyte/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 399]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 399
+Cake\Cache\Engine\FileEngine::write() - CORE/src/Cache/Engine/FileEngine.php, line 134
+Cake\I18n\TranslatorRegistry::get() - CORE/src/I18n/TranslatorRegistry.php, line 151
+Cake\I18n\I18n::getTranslator() - CORE/src/I18n/I18n.php, line 210
+__d - CORE/src/I18n/functions.php, line 88
+Cake\Validation\Validator::errors() - CORE/src/Validation/Validator.php, line 111
+Cake\ORM\Marshaller::_validate() - CORE/src/ORM/Marshaller.php, line 261
+Cake\ORM\Marshaller::merge() - CORE/src/ORM/Marshaller.php, line 570
+Cake\ORM\Table::patchEntity() - CORE/src/ORM/Table.php, line 2712
+App\Shell\UpdateCourseInstructorsShell::updateCourseInstructors() - APP/Shell/updateCourseInstructorsShell.php, line 53
+App\Shell\UpdateCourseInstructorsShell::main() - APP/Shell/updateCourseInstructorsShell.php, line 34
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 532
+Cake\Console\CommandRunner::runShell() - CORE/src/Console/CommandRunner.php, line 342
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 164
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2019-04-09 11:01:23 Warning: Warning (512): SplFileInfo::openFile(/var/www/html/classbyte/tmp/cache/models/myapp_cake_model_default_instructors): failed to open stream: Permission denied in [/var/www/html/classbyte/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 399]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 399
+Cake\Cache\Engine\FileEngine::read() - CORE/src/Cache/Engine/FileEngine.php, line 184
+Cake\Cache\Cache::read() - CORE/src/Cache/Cache.php, line 362
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 57
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 555
+Josegonzalez\Upload\Model\Behavior\UploadBehavior::initialize() - ROOT/vendor/josegonzalez/cakephp-upload/src/Model/Behavior/UploadBehavior.php, line 44
+Cake\ORM\Behavior::__construct() - CORE/src/ORM/Behavior.php, line 167
+Cake\ORM\BehaviorRegistry::_create() - CORE/src/ORM/BehaviorRegistry.php, line 146
+Cake\Core\ObjectRegistry::load() - CORE/src/Core/ObjectRegistry.php, line 97
+Cake\ORM\Table::addBehavior() - CORE/src/ORM/Table.php, line 867
+App\Model\Table\InstructorsTable::initialize() - APP/Model/Table/InstructorsTable.php, line 110
+Cake\ORM\Table::__construct() - CORE/src/ORM/Table.php, line 298
+Cake\ORM\Locator\TableLocator::_create() - CORE/src/ORM/Locator/TableLocator.php, line 257
+Cake\ORM\Locator\TableLocator::get() - CORE/src/ORM/Locator/TableLocator.php, line 224
+Cake\ORM\Association::getTarget() - CORE/src/ORM/Association.php, line 427
+Cake\ORM\Association\BelongsTo::isOwningSide() - CORE/src/ORM/Association/BelongsTo.php, line 94
+Cake\ORM\Association::getBindingKey() - CORE/src/ORM/Association.php, line 544
+Cake\ORM\Rule\ExistsIn::__invoke() - CORE/src/ORM/Rule/ExistsIn.php, line 98
+Cake\Datasource\RuleInvoker::__invoke() - CORE/src/Datasource/RuleInvoker.php, line 115
+Cake\Datasource\RulesChecker::_checkRules() - CORE/src/Datasource/RulesChecker.php, line 298
+Cake\Datasource\RulesChecker::checkUpdate() - CORE/src/Datasource/RulesChecker.php, line 268
+Cake\Datasource\RulesChecker::check() - CORE/src/Datasource/RulesChecker.php, line 235
+Cake\ORM\Table::checkRules() - CORE/src/Datasource/RulesAwareTrait.php, line 66
+Cake\ORM\Table::_processSave() - CORE/src/ORM/Table.php, line 1982
+Cake\ORM\Table::Cake\ORM\{closure}() - CORE/src/ORM/Table.php, line 1921
+Cake\ORM\Table::Cake\ORM\{closure}() - CORE/src/ORM/Table.php, line 1634
+Cake\Database\Connection::transactional() - CORE/src/Database/Connection.php, line 726
+Cake\ORM\Table::_executeTransaction() - CORE/src/ORM/Table.php, line 1635
+Cake\ORM\Table::save() - CORE/src/ORM/Table.php, line 1922
+App\Shell\UpdateCourseInstructorsShell::updateCourseInstructors() - APP/Shell/updateCourseInstructorsShell.php, line 54
+App\Shell\UpdateCourseInstructorsShell::main() - APP/Shell/updateCourseInstructorsShell.php, line 34
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 532
+Cake\Console\CommandRunner::runShell() - CORE/src/Console/CommandRunner.php, line 342
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 164
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2019-04-09 11:01:23 Warning: Warning (512): SplFileInfo::openFile(/var/www/html/classbyte/tmp/cache/models/myapp_cake_model_default_instructors): failed to open stream: Permission denied in [/var/www/html/classbyte/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 399]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 399
+Cake\Cache\Engine\FileEngine::write() - CORE/src/Cache/Engine/FileEngine.php, line 134
+Cake\Cache\Cache::write() - CORE/src/Cache/Cache.php, line 281
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 66
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 555
+Josegonzalez\Upload\Model\Behavior\UploadBehavior::initialize() - ROOT/vendor/josegonzalez/cakephp-upload/src/Model/Behavior/UploadBehavior.php, line 44
+Cake\ORM\Behavior::__construct() - CORE/src/ORM/Behavior.php, line 167
+Cake\ORM\BehaviorRegistry::_create() - CORE/src/ORM/BehaviorRegistry.php, line 146
+Cake\Core\ObjectRegistry::load() - CORE/src/Core/ObjectRegistry.php, line 97
+Cake\ORM\Table::addBehavior() - CORE/src/ORM/Table.php, line 867
+App\Model\Table\InstructorsTable::initialize() - APP/Model/Table/InstructorsTable.php, line 110
+Cake\ORM\Table::__construct() - CORE/src/ORM/Table.php, line 298
+Cake\ORM\Locator\TableLocator::_create() - CORE/src/ORM/Locator/TableLocator.php, line 257
+Cake\ORM\Locator\TableLocator::get() - CORE/src/ORM/Locator/TableLocator.php, line 224
+Cake\ORM\Association::getTarget() - CORE/src/ORM/Association.php, line 427
+Cake\ORM\Association\BelongsTo::isOwningSide() - CORE/src/ORM/Association/BelongsTo.php, line 94
+Cake\ORM\Association::getBindingKey() - CORE/src/ORM/Association.php, line 544
+Cake\ORM\Rule\ExistsIn::__invoke() - CORE/src/ORM/Rule/ExistsIn.php, line 98
+Cake\Datasource\RuleInvoker::__invoke() - CORE/src/Datasource/RuleInvoker.php, line 115
+Cake\Datasource\RulesChecker::_checkRules() - CORE/src/Datasource/RulesChecker.php, line 298
+Cake\Datasource\RulesChecker::checkUpdate() - CORE/src/Datasource/RulesChecker.php, line 268
+Cake\Datasource\RulesChecker::check() - CORE/src/Datasource/RulesChecker.php, line 235
+Cake\ORM\Table::checkRules() - CORE/src/Datasource/RulesAwareTrait.php, line 66
+Cake\ORM\Table::_processSave() - CORE/src/ORM/Table.php, line 1982
+Cake\ORM\Table::Cake\ORM\{closure}() - CORE/src/ORM/Table.php, line 1921
+Cake\ORM\Table::Cake\ORM\{closure}() - CORE/src/ORM/Table.php, line 1634
+Cake\Database\Connection::transactional() - CORE/src/Database/Connection.php, line 726
+Cake\ORM\Table::_executeTransaction() - CORE/src/ORM/Table.php, line 1635
+Cake\ORM\Table::save() - CORE/src/ORM/Table.php, line 1922
+App\Shell\UpdateCourseInstructorsShell::updateCourseInstructors() - APP/Shell/updateCourseInstructorsShell.php, line 54
+App\Shell\UpdateCourseInstructorsShell::main() - APP/Shell/updateCourseInstructorsShell.php, line 34
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 532
+Cake\Console\CommandRunner::runShell() - CORE/src/Console/CommandRunner.php, line 342
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 164
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2019-04-09 11:01:23 Warning: Warning (512): _cake_model_ cache was unable to write 'default_instructors' to Cake\Cache\Engine\FileEngine cache in [/var/www/html/classbyte/vendor/cakephp/cakephp/src/Cache/Cache.php, line 290]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Cache\Cache::write() - CORE/src/Cache/Cache.php, line 290
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 66
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 555
+Josegonzalez\Upload\Model\Behavior\UploadBehavior::initialize() - ROOT/vendor/josegonzalez/cakephp-upload/src/Model/Behavior/UploadBehavior.php, line 44
+Cake\ORM\Behavior::__construct() - CORE/src/ORM/Behavior.php, line 167
+Cake\ORM\BehaviorRegistry::_create() - CORE/src/ORM/BehaviorRegistry.php, line 146
+Cake\Core\ObjectRegistry::load() - CORE/src/Core/ObjectRegistry.php, line 97
+Cake\ORM\Table::addBehavior() - CORE/src/ORM/Table.php, line 867
+App\Model\Table\InstructorsTable::initialize() - APP/Model/Table/InstructorsTable.php, line 110
+Cake\ORM\Table::__construct() - CORE/src/ORM/Table.php, line 298
+Cake\ORM\Locator\TableLocator::_create() - CORE/src/ORM/Locator/TableLocator.php, line 257
+Cake\ORM\Locator\TableLocator::get() - CORE/src/ORM/Locator/TableLocator.php, line 224
+Cake\ORM\Association::getTarget() - CORE/src/ORM/Association.php, line 427
+Cake\ORM\Association\BelongsTo::isOwningSide() - CORE/src/ORM/Association/BelongsTo.php, line 94
+Cake\ORM\Association::getBindingKey() - CORE/src/ORM/Association.php, line 544
+Cake\ORM\Rule\ExistsIn::__invoke() - CORE/src/ORM/Rule/ExistsIn.php, line 98
+Cake\Datasource\RuleInvoker::__invoke() - CORE/src/Datasource/RuleInvoker.php, line 115
+Cake\Datasource\RulesChecker::_checkRules() - CORE/src/Datasource/RulesChecker.php, line 298
+Cake\Datasource\RulesChecker::checkUpdate() - CORE/src/Datasource/RulesChecker.php, line 268
+Cake\Datasource\RulesChecker::check() - CORE/src/Datasource/RulesChecker.php, line 235
+Cake\ORM\Table::checkRules() - CORE/src/Datasource/RulesAwareTrait.php, line 66
+Cake\ORM\Table::_processSave() - CORE/src/ORM/Table.php, line 1982
+Cake\ORM\Table::Cake\ORM\{closure}() - CORE/src/ORM/Table.php, line 1921
+Cake\ORM\Table::Cake\ORM\{closure}() - CORE/src/ORM/Table.php, line 1634
+Cake\Database\Connection::transactional() - CORE/src/Database/Connection.php, line 726
+Cake\ORM\Table::_executeTransaction() - CORE/src/ORM/Table.php, line 1635
+Cake\ORM\Table::save() - CORE/src/ORM/Table.php, line 1922
+App\Shell\UpdateCourseInstructorsShell::updateCourseInstructors() - APP/Shell/updateCourseInstructorsShell.php, line 54
+App\Shell\UpdateCourseInstructorsShell::main() - APP/Shell/updateCourseInstructorsShell.php, line 34
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 532
+Cake\Console\CommandRunner::runShell() - CORE/src/Console/CommandRunner.php, line 342
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 164
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2019-04-09 11:02:25 Warning: Warning (512): SplFileInfo::openFile(/var/www/html/classbyte/tmp/cache/models/myapp_cake_model_default_courses): failed to open stream: Permission denied in [/var/www/html/classbyte/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 399]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 399
+Cake\Cache\Engine\FileEngine::read() - CORE/src/Cache/Engine/FileEngine.php, line 184
+Cake\Cache\Cache::read() - CORE/src/Cache/Cache.php, line 362
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 57
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 555
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 271
+Cake\ORM\Query::__construct() - CORE/src/ORM/Query.php, line 169
+Cake\ORM\Table::query() - CORE/src/ORM/Table.php, line 1765
+Cake\ORM\Table::find() - CORE/src/ORM/Table.php, line 1357
+App\Shell\UpdateCourseInstructorsShell::updateCourseInstructors() - APP/Shell/updateCourseInstructorsShell.php, line 41
+App\Shell\UpdateCourseInstructorsShell::main() - APP/Shell/updateCourseInstructorsShell.php, line 34
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 532
+Cake\Console\CommandRunner::runShell() - CORE/src/Console/CommandRunner.php, line 342
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 164
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2019-04-09 11:02:25 Warning: Warning (512): SplFileInfo::openFile(/var/www/html/classbyte/tmp/cache/models/myapp_cake_model_default_courses): failed to open stream: Permission denied in [/var/www/html/classbyte/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 399]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 399
+Cake\Cache\Engine\FileEngine::write() - CORE/src/Cache/Engine/FileEngine.php, line 134
+Cake\Cache\Cache::write() - CORE/src/Cache/Cache.php, line 281
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 66
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 555
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 271
+Cake\ORM\Query::__construct() - CORE/src/ORM/Query.php, line 169
+Cake\ORM\Table::query() - CORE/src/ORM/Table.php, line 1765
+Cake\ORM\Table::find() - CORE/src/ORM/Table.php, line 1357
+App\Shell\UpdateCourseInstructorsShell::updateCourseInstructors() - APP/Shell/updateCourseInstructorsShell.php, line 41
+App\Shell\UpdateCourseInstructorsShell::main() - APP/Shell/updateCourseInstructorsShell.php, line 34
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 532
+Cake\Console\CommandRunner::runShell() - CORE/src/Console/CommandRunner.php, line 342
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 164
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2019-04-09 11:02:25 Warning: Warning (512): _cake_model_ cache was unable to write 'default_courses' to Cake\Cache\Engine\FileEngine cache in [/var/www/html/classbyte/vendor/cakephp/cakephp/src/Cache/Cache.php, line 290]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Cache\Cache::write() - CORE/src/Cache/Cache.php, line 290
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 66
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 555
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 271
+Cake\ORM\Query::__construct() - CORE/src/ORM/Query.php, line 169
+Cake\ORM\Table::query() - CORE/src/ORM/Table.php, line 1765
+Cake\ORM\Table::find() - CORE/src/ORM/Table.php, line 1357
+App\Shell\UpdateCourseInstructorsShell::updateCourseInstructors() - APP/Shell/updateCourseInstructorsShell.php, line 41
+App\Shell\UpdateCourseInstructorsShell::main() - APP/Shell/updateCourseInstructorsShell.php, line 34
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 532
+Cake\Console\CommandRunner::runShell() - CORE/src/Console/CommandRunner.php, line 342
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 164
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2019-04-09 11:02:25 Warning: Warning (512): SplFileInfo::openFile(/var/www/html/classbyte/tmp/cache/models/myapp_cake_model_default_course_instructors): failed to open stream: Permission denied in [/var/www/html/classbyte/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 399]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 399
+Cake\Cache\Engine\FileEngine::read() - CORE/src/Cache/Engine/FileEngine.php, line 184
+Cake\Cache\Cache::read() - CORE/src/Cache/Cache.php, line 362
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 57
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 555
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 271
+Cake\ORM\Query::_addAssociationsToTypeMap() - CORE/src/ORM/Query.php, line 526
+Cake\ORM\Query::contain() - CORE/src/ORM/Query.php, line 479
+App\Shell\UpdateCourseInstructorsShell::updateCourseInstructors() - APP/Shell/updateCourseInstructorsShell.php, line 41
+App\Shell\UpdateCourseInstructorsShell::main() - APP/Shell/updateCourseInstructorsShell.php, line 34
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 532
+Cake\Console\CommandRunner::runShell() - CORE/src/Console/CommandRunner.php, line 342
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 164
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2019-04-09 11:02:25 Warning: Warning (512): SplFileInfo::openFile(/var/www/html/classbyte/tmp/cache/models/myapp_cake_model_default_course_instructors): failed to open stream: Permission denied in [/var/www/html/classbyte/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 399]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 399
+Cake\Cache\Engine\FileEngine::write() - CORE/src/Cache/Engine/FileEngine.php, line 134
+Cake\Cache\Cache::write() - CORE/src/Cache/Cache.php, line 281
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 66
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 555
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 271
+Cake\ORM\Query::_addAssociationsToTypeMap() - CORE/src/ORM/Query.php, line 526
+Cake\ORM\Query::contain() - CORE/src/ORM/Query.php, line 479
+App\Shell\UpdateCourseInstructorsShell::updateCourseInstructors() - APP/Shell/updateCourseInstructorsShell.php, line 41
+App\Shell\UpdateCourseInstructorsShell::main() - APP/Shell/updateCourseInstructorsShell.php, line 34
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 532
+Cake\Console\CommandRunner::runShell() - CORE/src/Console/CommandRunner.php, line 342
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 164
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2019-04-09 11:02:25 Warning: Warning (512): _cake_model_ cache was unable to write 'default_course_instructors' to Cake\Cache\Engine\FileEngine cache in [/var/www/html/classbyte/vendor/cakephp/cakephp/src/Cache/Cache.php, line 290]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Cache\Cache::write() - CORE/src/Cache/Cache.php, line 290
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 66
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 555
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 271
+Cake\ORM\Query::_addAssociationsToTypeMap() - CORE/src/ORM/Query.php, line 526
+Cake\ORM\Query::contain() - CORE/src/ORM/Query.php, line 479
+App\Shell\UpdateCourseInstructorsShell::updateCourseInstructors() - APP/Shell/updateCourseInstructorsShell.php, line 41
+App\Shell\UpdateCourseInstructorsShell::main() - APP/Shell/updateCourseInstructorsShell.php, line 34
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 532
+Cake\Console\CommandRunner::runShell() - CORE/src/Console/CommandRunner.php, line 342
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 164
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2019-04-09 11:02:25 Warning: Warning (512): SplFileInfo::openFile(/var/www/html/classbyte/tmp/cache/persistent/myapp_cake_core_translations_cake_en__u_s): failed to open stream: Permission denied in [/var/www/html/classbyte/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 399]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 399
+Cake\Cache\Engine\FileEngine::read() - CORE/src/Cache/Engine/FileEngine.php, line 184
+Cake\I18n\TranslatorRegistry::get() - CORE/src/I18n/TranslatorRegistry.php, line 148
+Cake\I18n\I18n::getTranslator() - CORE/src/I18n/I18n.php, line 210
+__d - CORE/src/I18n/functions.php, line 88
+Cake\Validation\Validator::errors() - CORE/src/Validation/Validator.php, line 111
+Cake\ORM\Marshaller::_validate() - CORE/src/ORM/Marshaller.php, line 261
+Cake\ORM\Marshaller::merge() - CORE/src/ORM/Marshaller.php, line 570
+Cake\ORM\Table::patchEntity() - CORE/src/ORM/Table.php, line 2712
+App\Shell\UpdateCourseInstructorsShell::updateCourseInstructors() - APP/Shell/updateCourseInstructorsShell.php, line 53
+App\Shell\UpdateCourseInstructorsShell::main() - APP/Shell/updateCourseInstructorsShell.php, line 34
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 532
+Cake\Console\CommandRunner::runShell() - CORE/src/Console/CommandRunner.php, line 342
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 164
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2019-04-09 11:02:25 Warning: Warning (512): SplFileInfo::openFile(/var/www/html/classbyte/tmp/cache/persistent/myapp_cake_core_translations_default_en__u_s): failed to open stream: Permission denied in [/var/www/html/classbyte/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 399]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 399
+Cake\Cache\Engine\FileEngine::read() - CORE/src/Cache/Engine/FileEngine.php, line 184
+Cake\I18n\TranslatorRegistry::get() - CORE/src/I18n/TranslatorRegistry.php, line 148
+Aura\Intl\TranslatorLocator::get() - ROOT/vendor/aura/intl/src/TranslatorLocator.php, line 188
+Cake\I18n\TranslatorRegistry::_getFromLoader() - CORE/src/I18n/TranslatorRegistry.php, line 272
+Cake\I18n\TranslatorRegistry::_getTranslator() - CORE/src/I18n/TranslatorRegistry.php, line 176
+Cake\I18n\TranslatorRegistry::get() - CORE/src/I18n/TranslatorRegistry.php, line 150
+Cake\I18n\I18n::getTranslator() - CORE/src/I18n/I18n.php, line 210
+__d - CORE/src/I18n/functions.php, line 88
+Cake\Validation\Validator::errors() - CORE/src/Validation/Validator.php, line 111
+Cake\ORM\Marshaller::_validate() - CORE/src/ORM/Marshaller.php, line 261
+Cake\ORM\Marshaller::merge() - CORE/src/ORM/Marshaller.php, line 570
+Cake\ORM\Table::patchEntity() - CORE/src/ORM/Table.php, line 2712
+App\Shell\UpdateCourseInstructorsShell::updateCourseInstructors() - APP/Shell/updateCourseInstructorsShell.php, line 53
+App\Shell\UpdateCourseInstructorsShell::main() - APP/Shell/updateCourseInstructorsShell.php, line 34
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 532
+Cake\Console\CommandRunner::runShell() - CORE/src/Console/CommandRunner.php, line 342
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 164
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2019-04-09 11:02:25 Warning: Warning (512): SplFileInfo::openFile(/var/www/html/classbyte/tmp/cache/persistent/myapp_cake_core_translations_default_en__u_s): failed to open stream: Permission denied in [/var/www/html/classbyte/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 399]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 399
+Cake\Cache\Engine\FileEngine::write() - CORE/src/Cache/Engine/FileEngine.php, line 134
+Cake\I18n\TranslatorRegistry::get() - CORE/src/I18n/TranslatorRegistry.php, line 151
+Aura\Intl\TranslatorLocator::get() - ROOT/vendor/aura/intl/src/TranslatorLocator.php, line 188
+Cake\I18n\TranslatorRegistry::_getFromLoader() - CORE/src/I18n/TranslatorRegistry.php, line 272
+Cake\I18n\TranslatorRegistry::_getTranslator() - CORE/src/I18n/TranslatorRegistry.php, line 176
+Cake\I18n\TranslatorRegistry::get() - CORE/src/I18n/TranslatorRegistry.php, line 150
+Cake\I18n\I18n::getTranslator() - CORE/src/I18n/I18n.php, line 210
+__d - CORE/src/I18n/functions.php, line 88
+Cake\Validation\Validator::errors() - CORE/src/Validation/Validator.php, line 111
+Cake\ORM\Marshaller::_validate() - CORE/src/ORM/Marshaller.php, line 261
+Cake\ORM\Marshaller::merge() - CORE/src/ORM/Marshaller.php, line 570
+Cake\ORM\Table::patchEntity() - CORE/src/ORM/Table.php, line 2712
+App\Shell\UpdateCourseInstructorsShell::updateCourseInstructors() - APP/Shell/updateCourseInstructorsShell.php, line 53
+App\Shell\UpdateCourseInstructorsShell::main() - APP/Shell/updateCourseInstructorsShell.php, line 34
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 532
+Cake\Console\CommandRunner::runShell() - CORE/src/Console/CommandRunner.php, line 342
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 164
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2019-04-09 11:02:25 Warning: Warning (512): SplFileInfo::openFile(/var/www/html/classbyte/tmp/cache/persistent/myapp_cake_core_translations_cake_en__u_s): failed to open stream: Permission denied in [/var/www/html/classbyte/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 399]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 399
+Cake\Cache\Engine\FileEngine::write() - CORE/src/Cache/Engine/FileEngine.php, line 134
+Cake\I18n\TranslatorRegistry::get() - CORE/src/I18n/TranslatorRegistry.php, line 151
+Cake\I18n\I18n::getTranslator() - CORE/src/I18n/I18n.php, line 210
+__d - CORE/src/I18n/functions.php, line 88
+Cake\Validation\Validator::errors() - CORE/src/Validation/Validator.php, line 111
+Cake\ORM\Marshaller::_validate() - CORE/src/ORM/Marshaller.php, line 261
+Cake\ORM\Marshaller::merge() - CORE/src/ORM/Marshaller.php, line 570
+Cake\ORM\Table::patchEntity() - CORE/src/ORM/Table.php, line 2712
+App\Shell\UpdateCourseInstructorsShell::updateCourseInstructors() - APP/Shell/updateCourseInstructorsShell.php, line 53
+App\Shell\UpdateCourseInstructorsShell::main() - APP/Shell/updateCourseInstructorsShell.php, line 34
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 532
+Cake\Console\CommandRunner::runShell() - CORE/src/Console/CommandRunner.php, line 342
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 164
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2019-04-09 11:02:25 Warning: Warning (512): SplFileInfo::openFile(/var/www/html/classbyte/tmp/cache/models/myapp_cake_model_default_instructors): failed to open stream: Permission denied in [/var/www/html/classbyte/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 399]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 399
+Cake\Cache\Engine\FileEngine::read() - CORE/src/Cache/Engine/FileEngine.php, line 184
+Cake\Cache\Cache::read() - CORE/src/Cache/Cache.php, line 362
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 57
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 555
+Josegonzalez\Upload\Model\Behavior\UploadBehavior::initialize() - ROOT/vendor/josegonzalez/cakephp-upload/src/Model/Behavior/UploadBehavior.php, line 44
+Cake\ORM\Behavior::__construct() - CORE/src/ORM/Behavior.php, line 167
+Cake\ORM\BehaviorRegistry::_create() - CORE/src/ORM/BehaviorRegistry.php, line 146
+Cake\Core\ObjectRegistry::load() - CORE/src/Core/ObjectRegistry.php, line 97
+Cake\ORM\Table::addBehavior() - CORE/src/ORM/Table.php, line 867
+App\Model\Table\InstructorsTable::initialize() - APP/Model/Table/InstructorsTable.php, line 110
+Cake\ORM\Table::__construct() - CORE/src/ORM/Table.php, line 298
+Cake\ORM\Locator\TableLocator::_create() - CORE/src/ORM/Locator/TableLocator.php, line 257
+Cake\ORM\Locator\TableLocator::get() - CORE/src/ORM/Locator/TableLocator.php, line 224
+Cake\ORM\Association::getTarget() - CORE/src/ORM/Association.php, line 427
+Cake\ORM\Association\BelongsTo::isOwningSide() - CORE/src/ORM/Association/BelongsTo.php, line 94
+Cake\ORM\Association::getBindingKey() - CORE/src/ORM/Association.php, line 544
+Cake\ORM\Rule\ExistsIn::__invoke() - CORE/src/ORM/Rule/ExistsIn.php, line 98
+Cake\Datasource\RuleInvoker::__invoke() - CORE/src/Datasource/RuleInvoker.php, line 115
+Cake\Datasource\RulesChecker::_checkRules() - CORE/src/Datasource/RulesChecker.php, line 298
+Cake\Datasource\RulesChecker::checkUpdate() - CORE/src/Datasource/RulesChecker.php, line 268
+Cake\Datasource\RulesChecker::check() - CORE/src/Datasource/RulesChecker.php, line 235
+Cake\ORM\Table::checkRules() - CORE/src/Datasource/RulesAwareTrait.php, line 66
+Cake\ORM\Table::_processSave() - CORE/src/ORM/Table.php, line 1982
+Cake\ORM\Table::Cake\ORM\{closure}() - CORE/src/ORM/Table.php, line 1921
+Cake\ORM\Table::Cake\ORM\{closure}() - CORE/src/ORM/Table.php, line 1634
+Cake\Database\Connection::transactional() - CORE/src/Database/Connection.php, line 726
+Cake\ORM\Table::_executeTransaction() - CORE/src/ORM/Table.php, line 1635
+Cake\ORM\Table::save() - CORE/src/ORM/Table.php, line 1922
+App\Shell\UpdateCourseInstructorsShell::updateCourseInstructors() - APP/Shell/updateCourseInstructorsShell.php, line 54
+App\Shell\UpdateCourseInstructorsShell::main() - APP/Shell/updateCourseInstructorsShell.php, line 34
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 532
+Cake\Console\CommandRunner::runShell() - CORE/src/Console/CommandRunner.php, line 342
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 164
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2019-04-09 11:02:25 Warning: Warning (512): SplFileInfo::openFile(/var/www/html/classbyte/tmp/cache/models/myapp_cake_model_default_instructors): failed to open stream: Permission denied in [/var/www/html/classbyte/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 399]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 399
+Cake\Cache\Engine\FileEngine::write() - CORE/src/Cache/Engine/FileEngine.php, line 134
+Cake\Cache\Cache::write() - CORE/src/Cache/Cache.php, line 281
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 66
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 555
+Josegonzalez\Upload\Model\Behavior\UploadBehavior::initialize() - ROOT/vendor/josegonzalez/cakephp-upload/src/Model/Behavior/UploadBehavior.php, line 44
+Cake\ORM\Behavior::__construct() - CORE/src/ORM/Behavior.php, line 167
+Cake\ORM\BehaviorRegistry::_create() - CORE/src/ORM/BehaviorRegistry.php, line 146
+Cake\Core\ObjectRegistry::load() - CORE/src/Core/ObjectRegistry.php, line 97
+Cake\ORM\Table::addBehavior() - CORE/src/ORM/Table.php, line 867
+App\Model\Table\InstructorsTable::initialize() - APP/Model/Table/InstructorsTable.php, line 110
+Cake\ORM\Table::__construct() - CORE/src/ORM/Table.php, line 298
+Cake\ORM\Locator\TableLocator::_create() - CORE/src/ORM/Locator/TableLocator.php, line 257
+Cake\ORM\Locator\TableLocator::get() - CORE/src/ORM/Locator/TableLocator.php, line 224
+Cake\ORM\Association::getTarget() - CORE/src/ORM/Association.php, line 427
+Cake\ORM\Association\BelongsTo::isOwningSide() - CORE/src/ORM/Association/BelongsTo.php, line 94
+Cake\ORM\Association::getBindingKey() - CORE/src/ORM/Association.php, line 544
+Cake\ORM\Rule\ExistsIn::__invoke() - CORE/src/ORM/Rule/ExistsIn.php, line 98
+Cake\Datasource\RuleInvoker::__invoke() - CORE/src/Datasource/RuleInvoker.php, line 115
+Cake\Datasource\RulesChecker::_checkRules() - CORE/src/Datasource/RulesChecker.php, line 298
+Cake\Datasource\RulesChecker::checkUpdate() - CORE/src/Datasource/RulesChecker.php, line 268
+Cake\Datasource\RulesChecker::check() - CORE/src/Datasource/RulesChecker.php, line 235
+Cake\ORM\Table::checkRules() - CORE/src/Datasource/RulesAwareTrait.php, line 66
+Cake\ORM\Table::_processSave() - CORE/src/ORM/Table.php, line 1982
+Cake\ORM\Table::Cake\ORM\{closure}() - CORE/src/ORM/Table.php, line 1921
+Cake\ORM\Table::Cake\ORM\{closure}() - CORE/src/ORM/Table.php, line 1634
+Cake\Database\Connection::transactional() - CORE/src/Database/Connection.php, line 726
+Cake\ORM\Table::_executeTransaction() - CORE/src/ORM/Table.php, line 1635
+Cake\ORM\Table::save() - CORE/src/ORM/Table.php, line 1922
+App\Shell\UpdateCourseInstructorsShell::updateCourseInstructors() - APP/Shell/updateCourseInstructorsShell.php, line 54
+App\Shell\UpdateCourseInstructorsShell::main() - APP/Shell/updateCourseInstructorsShell.php, line 34
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 532
+Cake\Console\CommandRunner::runShell() - CORE/src/Console/CommandRunner.php, line 342
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 164
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2019-04-09 11:02:25 Warning: Warning (512): _cake_model_ cache was unable to write 'default_instructors' to Cake\Cache\Engine\FileEngine cache in [/var/www/html/classbyte/vendor/cakephp/cakephp/src/Cache/Cache.php, line 290]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Cache\Cache::write() - CORE/src/Cache/Cache.php, line 290
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 66
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 555
+Josegonzalez\Upload\Model\Behavior\UploadBehavior::initialize() - ROOT/vendor/josegonzalez/cakephp-upload/src/Model/Behavior/UploadBehavior.php, line 44
+Cake\ORM\Behavior::__construct() - CORE/src/ORM/Behavior.php, line 167
+Cake\ORM\BehaviorRegistry::_create() - CORE/src/ORM/BehaviorRegistry.php, line 146
+Cake\Core\ObjectRegistry::load() - CORE/src/Core/ObjectRegistry.php, line 97
+Cake\ORM\Table::addBehavior() - CORE/src/ORM/Table.php, line 867
+App\Model\Table\InstructorsTable::initialize() - APP/Model/Table/InstructorsTable.php, line 110
+Cake\ORM\Table::__construct() - CORE/src/ORM/Table.php, line 298
+Cake\ORM\Locator\TableLocator::_create() - CORE/src/ORM/Locator/TableLocator.php, line 257
+Cake\ORM\Locator\TableLocator::get() - CORE/src/ORM/Locator/TableLocator.php, line 224
+Cake\ORM\Association::getTarget() - CORE/src/ORM/Association.php, line 427
+Cake\ORM\Association\BelongsTo::isOwningSide() - CORE/src/ORM/Association/BelongsTo.php, line 94
+Cake\ORM\Association::getBindingKey() - CORE/src/ORM/Association.php, line 544
+Cake\ORM\Rule\ExistsIn::__invoke() - CORE/src/ORM/Rule/ExistsIn.php, line 98
+Cake\Datasource\RuleInvoker::__invoke() - CORE/src/Datasource/RuleInvoker.php, line 115
+Cake\Datasource\RulesChecker::_checkRules() - CORE/src/Datasource/RulesChecker.php, line 298
+Cake\Datasource\RulesChecker::checkUpdate() - CORE/src/Datasource/RulesChecker.php, line 268
+Cake\Datasource\RulesChecker::check() - CORE/src/Datasource/RulesChecker.php, line 235
+Cake\ORM\Table::checkRules() - CORE/src/Datasource/RulesAwareTrait.php, line 66
+Cake\ORM\Table::_processSave() - CORE/src/ORM/Table.php, line 1982
+Cake\ORM\Table::Cake\ORM\{closure}() - CORE/src/ORM/Table.php, line 1921
+Cake\ORM\Table::Cake\ORM\{closure}() - CORE/src/ORM/Table.php, line 1634
+Cake\Database\Connection::transactional() - CORE/src/Database/Connection.php, line 726
+Cake\ORM\Table::_executeTransaction() - CORE/src/ORM/Table.php, line 1635
+Cake\ORM\Table::save() - CORE/src/ORM/Table.php, line 1922
+App\Shell\UpdateCourseInstructorsShell::updateCourseInstructors() - APP/Shell/updateCourseInstructorsShell.php, line 54
+App\Shell\UpdateCourseInstructorsShell::main() - APP/Shell/updateCourseInstructorsShell.php, line 34
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 532
+Cake\Console\CommandRunner::runShell() - CORE/src/Console/CommandRunner.php, line 342
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 164
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2019-04-09 11:10:29 Warning: Warning (512): SplFileInfo::openFile(/var/www/html/classbyte/tmp/cache/models/myapp_cake_model_default_courses): failed to open stream: Permission denied in [/var/www/html/classbyte/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 399]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 399
+Cake\Cache\Engine\FileEngine::read() - CORE/src/Cache/Engine/FileEngine.php, line 184
+Cake\Cache\Cache::read() - CORE/src/Cache/Cache.php, line 362
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 57
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 555
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 271
+Cake\ORM\Query::__construct() - CORE/src/ORM/Query.php, line 169
+Cake\ORM\Table::query() - CORE/src/ORM/Table.php, line 1765
+Cake\ORM\Table::find() - CORE/src/ORM/Table.php, line 1357
+App\Shell\UpdateCourseInstructorsShell::updateCourseInstructors() - APP/Shell/updateCourseInstructorsShell.php, line 41
+App\Shell\UpdateCourseInstructorsShell::main() - APP/Shell/updateCourseInstructorsShell.php, line 34
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 532
+Cake\Console\CommandRunner::runShell() - CORE/src/Console/CommandRunner.php, line 342
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 164
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2019-04-09 11:10:29 Warning: Warning (512): SplFileInfo::openFile(/var/www/html/classbyte/tmp/cache/models/myapp_cake_model_default_courses): failed to open stream: Permission denied in [/var/www/html/classbyte/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 399]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 399
+Cake\Cache\Engine\FileEngine::write() - CORE/src/Cache/Engine/FileEngine.php, line 134
+Cake\Cache\Cache::write() - CORE/src/Cache/Cache.php, line 281
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 66
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 555
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 271
+Cake\ORM\Query::__construct() - CORE/src/ORM/Query.php, line 169
+Cake\ORM\Table::query() - CORE/src/ORM/Table.php, line 1765
+Cake\ORM\Table::find() - CORE/src/ORM/Table.php, line 1357
+App\Shell\UpdateCourseInstructorsShell::updateCourseInstructors() - APP/Shell/updateCourseInstructorsShell.php, line 41
+App\Shell\UpdateCourseInstructorsShell::main() - APP/Shell/updateCourseInstructorsShell.php, line 34
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 532
+Cake\Console\CommandRunner::runShell() - CORE/src/Console/CommandRunner.php, line 342
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 164
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2019-04-09 11:10:29 Warning: Warning (512): _cake_model_ cache was unable to write 'default_courses' to Cake\Cache\Engine\FileEngine cache in [/var/www/html/classbyte/vendor/cakephp/cakephp/src/Cache/Cache.php, line 290]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Cache\Cache::write() - CORE/src/Cache/Cache.php, line 290
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 66
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 555
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 271
+Cake\ORM\Query::__construct() - CORE/src/ORM/Query.php, line 169
+Cake\ORM\Table::query() - CORE/src/ORM/Table.php, line 1765
+Cake\ORM\Table::find() - CORE/src/ORM/Table.php, line 1357
+App\Shell\UpdateCourseInstructorsShell::updateCourseInstructors() - APP/Shell/updateCourseInstructorsShell.php, line 41
+App\Shell\UpdateCourseInstructorsShell::main() - APP/Shell/updateCourseInstructorsShell.php, line 34
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 532
+Cake\Console\CommandRunner::runShell() - CORE/src/Console/CommandRunner.php, line 342
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 164
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2019-04-09 11:10:29 Warning: Warning (512): SplFileInfo::openFile(/var/www/html/classbyte/tmp/cache/models/myapp_cake_model_default_course_instructors): failed to open stream: Permission denied in [/var/www/html/classbyte/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 399]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 399
+Cake\Cache\Engine\FileEngine::read() - CORE/src/Cache/Engine/FileEngine.php, line 184
+Cake\Cache\Cache::read() - CORE/src/Cache/Cache.php, line 362
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 57
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 555
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 271
+Cake\ORM\Query::_addAssociationsToTypeMap() - CORE/src/ORM/Query.php, line 526
+Cake\ORM\Query::contain() - CORE/src/ORM/Query.php, line 479
+App\Shell\UpdateCourseInstructorsShell::updateCourseInstructors() - APP/Shell/updateCourseInstructorsShell.php, line 41
+App\Shell\UpdateCourseInstructorsShell::main() - APP/Shell/updateCourseInstructorsShell.php, line 34
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 532
+Cake\Console\CommandRunner::runShell() - CORE/src/Console/CommandRunner.php, line 342
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 164
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2019-04-09 11:10:29 Warning: Warning (512): SplFileInfo::openFile(/var/www/html/classbyte/tmp/cache/models/myapp_cake_model_default_course_instructors): failed to open stream: Permission denied in [/var/www/html/classbyte/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 399]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 399
+Cake\Cache\Engine\FileEngine::write() - CORE/src/Cache/Engine/FileEngine.php, line 134
+Cake\Cache\Cache::write() - CORE/src/Cache/Cache.php, line 281
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 66
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 555
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 271
+Cake\ORM\Query::_addAssociationsToTypeMap() - CORE/src/ORM/Query.php, line 526
+Cake\ORM\Query::contain() - CORE/src/ORM/Query.php, line 479
+App\Shell\UpdateCourseInstructorsShell::updateCourseInstructors() - APP/Shell/updateCourseInstructorsShell.php, line 41
+App\Shell\UpdateCourseInstructorsShell::main() - APP/Shell/updateCourseInstructorsShell.php, line 34
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 532
+Cake\Console\CommandRunner::runShell() - CORE/src/Console/CommandRunner.php, line 342
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 164
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2019-04-09 11:10:29 Warning: Warning (512): _cake_model_ cache was unable to write 'default_course_instructors' to Cake\Cache\Engine\FileEngine cache in [/var/www/html/classbyte/vendor/cakephp/cakephp/src/Cache/Cache.php, line 290]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Cache\Cache::write() - CORE/src/Cache/Cache.php, line 290
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 66
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 555
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 271
+Cake\ORM\Query::_addAssociationsToTypeMap() - CORE/src/ORM/Query.php, line 526
+Cake\ORM\Query::contain() - CORE/src/ORM/Query.php, line 479
+App\Shell\UpdateCourseInstructorsShell::updateCourseInstructors() - APP/Shell/updateCourseInstructorsShell.php, line 41
+App\Shell\UpdateCourseInstructorsShell::main() - APP/Shell/updateCourseInstructorsShell.php, line 34
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 532
+Cake\Console\CommandRunner::runShell() - CORE/src/Console/CommandRunner.php, line 342
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 164
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2019-04-09 11:11:16 Warning: Warning (512): SplFileInfo::openFile(/var/www/html/classbyte/tmp/cache/models/myapp_cake_model_default_courses): failed to open stream: Permission denied in [/var/www/html/classbyte/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 399]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 399
+Cake\Cache\Engine\FileEngine::read() - CORE/src/Cache/Engine/FileEngine.php, line 184
+Cake\Cache\Cache::read() - CORE/src/Cache/Cache.php, line 362
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 57
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 555
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 271
+Cake\ORM\Query::__construct() - CORE/src/ORM/Query.php, line 169
+Cake\ORM\Table::query() - CORE/src/ORM/Table.php, line 1765
+Cake\ORM\Table::find() - CORE/src/ORM/Table.php, line 1357
+App\Shell\UpdateCourseInstructorsShell::updateCourseInstructors() - APP/Shell/updateCourseInstructorsShell.php, line 41
+App\Shell\UpdateCourseInstructorsShell::main() - APP/Shell/updateCourseInstructorsShell.php, line 34
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 532
+Cake\Console\CommandRunner::runShell() - CORE/src/Console/CommandRunner.php, line 342
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 164
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2019-04-09 11:11:16 Warning: Warning (512): SplFileInfo::openFile(/var/www/html/classbyte/tmp/cache/models/myapp_cake_model_default_courses): failed to open stream: Permission denied in [/var/www/html/classbyte/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 399]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 399
+Cake\Cache\Engine\FileEngine::write() - CORE/src/Cache/Engine/FileEngine.php, line 134
+Cake\Cache\Cache::write() - CORE/src/Cache/Cache.php, line 281
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 66
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 555
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 271
+Cake\ORM\Query::__construct() - CORE/src/ORM/Query.php, line 169
+Cake\ORM\Table::query() - CORE/src/ORM/Table.php, line 1765
+Cake\ORM\Table::find() - CORE/src/ORM/Table.php, line 1357
+App\Shell\UpdateCourseInstructorsShell::updateCourseInstructors() - APP/Shell/updateCourseInstructorsShell.php, line 41
+App\Shell\UpdateCourseInstructorsShell::main() - APP/Shell/updateCourseInstructorsShell.php, line 34
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 532
+Cake\Console\CommandRunner::runShell() - CORE/src/Console/CommandRunner.php, line 342
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 164
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2019-04-09 11:11:16 Warning: Warning (512): _cake_model_ cache was unable to write 'default_courses' to Cake\Cache\Engine\FileEngine cache in [/var/www/html/classbyte/vendor/cakephp/cakephp/src/Cache/Cache.php, line 290]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Cache\Cache::write() - CORE/src/Cache/Cache.php, line 290
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 66
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 555
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 271
+Cake\ORM\Query::__construct() - CORE/src/ORM/Query.php, line 169
+Cake\ORM\Table::query() - CORE/src/ORM/Table.php, line 1765
+Cake\ORM\Table::find() - CORE/src/ORM/Table.php, line 1357
+App\Shell\UpdateCourseInstructorsShell::updateCourseInstructors() - APP/Shell/updateCourseInstructorsShell.php, line 41
+App\Shell\UpdateCourseInstructorsShell::main() - APP/Shell/updateCourseInstructorsShell.php, line 34
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 532
+Cake\Console\CommandRunner::runShell() - CORE/src/Console/CommandRunner.php, line 342
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 164
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2019-04-09 11:11:16 Warning: Warning (512): SplFileInfo::openFile(/var/www/html/classbyte/tmp/cache/models/myapp_cake_model_default_course_instructors): failed to open stream: Permission denied in [/var/www/html/classbyte/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 399]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 399
+Cake\Cache\Engine\FileEngine::read() - CORE/src/Cache/Engine/FileEngine.php, line 184
+Cake\Cache\Cache::read() - CORE/src/Cache/Cache.php, line 362
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 57
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 555
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 271
+Cake\ORM\Query::_addAssociationsToTypeMap() - CORE/src/ORM/Query.php, line 526
+Cake\ORM\Query::contain() - CORE/src/ORM/Query.php, line 479
+App\Shell\UpdateCourseInstructorsShell::updateCourseInstructors() - APP/Shell/updateCourseInstructorsShell.php, line 41
+App\Shell\UpdateCourseInstructorsShell::main() - APP/Shell/updateCourseInstructorsShell.php, line 34
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 532
+Cake\Console\CommandRunner::runShell() - CORE/src/Console/CommandRunner.php, line 342
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 164
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2019-04-09 11:11:16 Warning: Warning (512): SplFileInfo::openFile(/var/www/html/classbyte/tmp/cache/models/myapp_cake_model_default_course_instructors): failed to open stream: Permission denied in [/var/www/html/classbyte/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 399]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 399
+Cake\Cache\Engine\FileEngine::write() - CORE/src/Cache/Engine/FileEngine.php, line 134
+Cake\Cache\Cache::write() - CORE/src/Cache/Cache.php, line 281
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 66
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 555
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 271
+Cake\ORM\Query::_addAssociationsToTypeMap() - CORE/src/ORM/Query.php, line 526
+Cake\ORM\Query::contain() - CORE/src/ORM/Query.php, line 479
+App\Shell\UpdateCourseInstructorsShell::updateCourseInstructors() - APP/Shell/updateCourseInstructorsShell.php, line 41
+App\Shell\UpdateCourseInstructorsShell::main() - APP/Shell/updateCourseInstructorsShell.php, line 34
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 532
+Cake\Console\CommandRunner::runShell() - CORE/src/Console/CommandRunner.php, line 342
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 164
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2019-04-09 11:11:16 Warning: Warning (512): _cake_model_ cache was unable to write 'default_course_instructors' to Cake\Cache\Engine\FileEngine cache in [/var/www/html/classbyte/vendor/cakephp/cakephp/src/Cache/Cache.php, line 290]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Cache\Cache::write() - CORE/src/Cache/Cache.php, line 290
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 66
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 555
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 271
+Cake\ORM\Query::_addAssociationsToTypeMap() - CORE/src/ORM/Query.php, line 526
+Cake\ORM\Query::contain() - CORE/src/ORM/Query.php, line 479
+App\Shell\UpdateCourseInstructorsShell::updateCourseInstructors() - APP/Shell/updateCourseInstructorsShell.php, line 41
+App\Shell\UpdateCourseInstructorsShell::main() - APP/Shell/updateCourseInstructorsShell.php, line 34
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 532
+Cake\Console\CommandRunner::runShell() - CORE/src/Console/CommandRunner.php, line 342
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 164
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2019-04-09 11:12:35 Warning: Warning (512): SplFileInfo::openFile(/var/www/html/classbyte/tmp/cache/models/myapp_cake_model_default_courses): failed to open stream: Permission denied in [/var/www/html/classbyte/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 399]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 399
+Cake\Cache\Engine\FileEngine::read() - CORE/src/Cache/Engine/FileEngine.php, line 184
+Cake\Cache\Cache::read() - CORE/src/Cache/Cache.php, line 362
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 57
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 555
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 271
+Cake\ORM\Query::__construct() - CORE/src/ORM/Query.php, line 169
+Cake\ORM\Table::query() - CORE/src/ORM/Table.php, line 1765
+Cake\ORM\Table::find() - CORE/src/ORM/Table.php, line 1357
+App\Shell\UpdateCourseInstructorsShell::updateCourseInstructors() - APP/Shell/updateCourseInstructorsShell.php, line 41
+App\Shell\UpdateCourseInstructorsShell::main() - APP/Shell/updateCourseInstructorsShell.php, line 34
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 532
+Cake\Console\CommandRunner::runShell() - CORE/src/Console/CommandRunner.php, line 342
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 164
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2019-04-09 11:12:35 Warning: Warning (512): SplFileInfo::openFile(/var/www/html/classbyte/tmp/cache/models/myapp_cake_model_default_courses): failed to open stream: Permission denied in [/var/www/html/classbyte/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 399]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 399
+Cake\Cache\Engine\FileEngine::write() - CORE/src/Cache/Engine/FileEngine.php, line 134
+Cake\Cache\Cache::write() - CORE/src/Cache/Cache.php, line 281
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 66
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 555
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 271
+Cake\ORM\Query::__construct() - CORE/src/ORM/Query.php, line 169
+Cake\ORM\Table::query() - CORE/src/ORM/Table.php, line 1765
+Cake\ORM\Table::find() - CORE/src/ORM/Table.php, line 1357
+App\Shell\UpdateCourseInstructorsShell::updateCourseInstructors() - APP/Shell/updateCourseInstructorsShell.php, line 41
+App\Shell\UpdateCourseInstructorsShell::main() - APP/Shell/updateCourseInstructorsShell.php, line 34
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 532
+Cake\Console\CommandRunner::runShell() - CORE/src/Console/CommandRunner.php, line 342
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 164
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2019-04-09 11:12:35 Warning: Warning (512): _cake_model_ cache was unable to write 'default_courses' to Cake\Cache\Engine\FileEngine cache in [/var/www/html/classbyte/vendor/cakephp/cakephp/src/Cache/Cache.php, line 290]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Cache\Cache::write() - CORE/src/Cache/Cache.php, line 290
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 66
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 555
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 271
+Cake\ORM\Query::__construct() - CORE/src/ORM/Query.php, line 169
+Cake\ORM\Table::query() - CORE/src/ORM/Table.php, line 1765
+Cake\ORM\Table::find() - CORE/src/ORM/Table.php, line 1357
+App\Shell\UpdateCourseInstructorsShell::updateCourseInstructors() - APP/Shell/updateCourseInstructorsShell.php, line 41
+App\Shell\UpdateCourseInstructorsShell::main() - APP/Shell/updateCourseInstructorsShell.php, line 34
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 532
+Cake\Console\CommandRunner::runShell() - CORE/src/Console/CommandRunner.php, line 342
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 164
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2019-04-09 11:12:35 Warning: Warning (512): SplFileInfo::openFile(/var/www/html/classbyte/tmp/cache/models/myapp_cake_model_default_course_instructors): failed to open stream: Permission denied in [/var/www/html/classbyte/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 399]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 399
+Cake\Cache\Engine\FileEngine::read() - CORE/src/Cache/Engine/FileEngine.php, line 184
+Cake\Cache\Cache::read() - CORE/src/Cache/Cache.php, line 362
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 57
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 555
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 271
+Cake\ORM\Query::_addAssociationsToTypeMap() - CORE/src/ORM/Query.php, line 526
+Cake\ORM\Query::contain() - CORE/src/ORM/Query.php, line 479
+App\Shell\UpdateCourseInstructorsShell::updateCourseInstructors() - APP/Shell/updateCourseInstructorsShell.php, line 41
+App\Shell\UpdateCourseInstructorsShell::main() - APP/Shell/updateCourseInstructorsShell.php, line 34
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 532
+Cake\Console\CommandRunner::runShell() - CORE/src/Console/CommandRunner.php, line 342
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 164
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2019-04-09 11:12:35 Warning: Warning (512): SplFileInfo::openFile(/var/www/html/classbyte/tmp/cache/models/myapp_cake_model_default_course_instructors): failed to open stream: Permission denied in [/var/www/html/classbyte/vendor/cakephp/cakephp/src/Cache/Engine/FileEngine.php, line 399]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Cache\Engine\FileEngine::_setKey() - CORE/src/Cache/Engine/FileEngine.php, line 399
+Cake\Cache\Engine\FileEngine::write() - CORE/src/Cache/Engine/FileEngine.php, line 134
+Cake\Cache\Cache::write() - CORE/src/Cache/Cache.php, line 281
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 66
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 555
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 271
+Cake\ORM\Query::_addAssociationsToTypeMap() - CORE/src/ORM/Query.php, line 526
+Cake\ORM\Query::contain() - CORE/src/ORM/Query.php, line 479
+App\Shell\UpdateCourseInstructorsShell::updateCourseInstructors() - APP/Shell/updateCourseInstructorsShell.php, line 41
+App\Shell\UpdateCourseInstructorsShell::main() - APP/Shell/updateCourseInstructorsShell.php, line 34
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 532
+Cake\Console\CommandRunner::runShell() - CORE/src/Console/CommandRunner.php, line 342
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 164
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2019-04-09 11:12:35 Warning: Warning (512): _cake_model_ cache was unable to write 'default_course_instructors' to Cake\Cache\Engine\FileEngine cache in [/var/www/html/classbyte/vendor/cakephp/cakephp/src/Cache/Cache.php, line 290]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 159
+Cake\Cache\Cache::write() - CORE/src/Cache/Cache.php, line 290
+Cake\Database\Schema\CachedCollection::describe() - CORE/src/Database/Schema/CachedCollection.php, line 66
+Cake\ORM\Table::getSchema() - CORE/src/ORM/Table.php, line 555
+Cake\ORM\Query::addDefaultTypes() - CORE/src/ORM/Query.php, line 271
+Cake\ORM\Query::_addAssociationsToTypeMap() - CORE/src/ORM/Query.php, line 526
+Cake\ORM\Query::contain() - CORE/src/ORM/Query.php, line 479
+App\Shell\UpdateCourseInstructorsShell::updateCourseInstructors() - APP/Shell/updateCourseInstructorsShell.php, line 41
+App\Shell\UpdateCourseInstructorsShell::main() - APP/Shell/updateCourseInstructorsShell.php, line 34
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 532
+Cake\Console\CommandRunner::runShell() - CORE/src/Console/CommandRunner.php, line 342
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 164
+[main] - ROOT/bin/cake.php, line 12
+
+
+

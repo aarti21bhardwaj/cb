@@ -1,0 +1,1 @@
+ <h1><strong> <?php echo "Hi ".$loggedInUser['first_name']." ".$loggedInUser['last_name']."!" ?> </strong></h1>
